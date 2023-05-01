@@ -8,13 +8,57 @@ import Hero from '../components/Hero.astro';
 	<main>
 		<Hero />
 
+
+		<div class="main-info">
+			<div>
+				<h3>Datum</h3>
+				12.12.2024 - 12.12.2024
+			</div>
+			<div>
+				<h3>Ort</h3>
+				ABC Bildungs- und Tagungszentrum, Hüll
+			</div>
+			<div>
+				<h3>Preis</h3>
+				Nix, aber Spende pls
+			</div>
+		</div>
+
+		<div class="content">
+			<h2>Zur Geschichte des HüPC: Das JugendPolitCamp!</h2>
+			<p>Aus dem JugendPolitCamp wird in diesem Jahr: das Hüller PolitCamp!
+		Das JugendPolitCamp (JPC) geht ins elfte Jahr. Viele Teilnehmende haben diese Jahre kontinuierlich mitgestaltet. Nun ist diese erste Generation JPC langsam aus dem Jugendalter herausgewachsen. Das ändert nichts daran, dass sie Räume suchen und gestalten wollen, in denen sie sich als Aktivist*innen, politische Bildner*innen – die sie zum Teil inzwischen sind – oder einfach politisch interessierte Menschen austauschen, vernetzen und Pläne schmieden können. So entstand die Idee, das JPC dieses Jahr für einen intergenerativen Austausch zu öffnen.<br>
+		Dieses Format soll nicht bedeuten, dass sich das JPC abschafft. Es ist eher als ein Übergang zu verstehen, denn wir wollen jungen Menschen weiterhin frei gestaltbaren Raum bieten, in dem sie unter sich sind. Wir hoffen, dass das diesjährige Format junge Menschen anspricht, die Lust haben, das JPC zukünftig weiterzuführen.</p>
+	</div>
 	</main>
 </Layout>
 
-<style>
+<style lang="scss">
 	h1 {
 		font-size: 2rem;
 		font-weight: 800;
 		margin: 0;
+	}
+
+	.main-info {
+		padding: 1rem var(--content-x-padding);
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 80vw;
+		margin: 0 auto;
+
+		font-size: 1.5rem;
+
+		h3 {
+			text-transform: uppercase;
+			margin: 0;
+			margin-bottom: .5rem;
+			font-size: 1rem;
+		}
+	}
+
+	div.content {
+		padding: 1rem var(--content-x-padding);
 	}
 </style>

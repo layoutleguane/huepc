@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 3840 2160" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient gradientTransform="matrix(1.05458 0 0 1 -225.988 0)" gradientUnits="userSpaceOnUse" id="LinearGradient" x1="1951.02" x2="1951.02" y1="-219.733" y2="2229.67">
+<stop offset="0.377083" stop-color="#f8bc72"/>
+<stop offset="1" stop-color="#fba389"/>
+</linearGradient>
+</defs>
+<clipPath id="ArtboardFrame">
+<rect height="2160" width="3840" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Ebene-1" vectornator:layerName="Ebene 1">
+<path d="M859.26-107.504C692.915-133.793 509.435-17.8491 347.376-48.5833C224.727-71.8437-125.458-133.873-229.603-59.8063C-513.729 142.26-268.932 1189.52-78.7008 1430.04C130.789 1694.9 523.881 1564.94 806.001 1598.38C1268.9 1653.25 1603.87 1908.07 2072.4 1971.54C2343.98 2008.33 2757.18 1945.68 2998.52 1831.26C3160.18 1754.61 3294.6 1621.7 3474.9 1564.71C3606.74 1523.04 3794.5 1556.25 3898.02 1458.09C4294.28 1082.34 4191.99 17.8467 3684.98-222.539" fill="url(#LinearGradient)" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M-181.571 1079.78C-206.268 1064.13-102.731 1063.43-71.028 1074.27C10.1373 1102.01 138.774 1110.14 181.34 1165.94C247.987 1253.29 187.169 1469.1 312.367 1515.08C657.235 1641.73 895.981 1470.44 1230.34 1511.15C1540.74 1548.94 1596.28 1824.32 1962.66 1880.95C2853.03 2018.57 2938.33 1653.66 3600.69 1490.27C4072.52 1373.88 4149.1 1711.69 4047.63 1898.67C3880.29 2207.02 3140.27 2098.84 2731.27 2086.19C2295.17 2072.71 1876.76 2169.22 1436.53 2136.21C1138.99 2113.9 1159.99 1936.97 934.236 1902.08C653.595 1858.7 295.721 1939.22-3.54831 1910.89C-456.754 1867.98-732.661 1626.98-486.251 1370.77" fill="#1a073b" fill-rule="nonzero" opacity="1" stroke="#1a073b" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+</g>
+</svg>

@@ -12,13 +12,17 @@ const { title } = Astro.props;
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/png" href="/favicon.png" />
+		<link rel="icon" type="image/svg+xml" href="/Alpaka-head.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
 	<body>
 		<slot />
 	</body>
+
+	<footer>
+		Made with ❤️ in Kiel, Hamburg &amp; Mannheim
+	</footer>
 </html>
 <style is:global>
 	:root {
@@ -29,14 +33,30 @@ const { title } = Astro.props;
 		--color-green: #06D6A0;
 		--color-blue: #118AB2;
 		--color-dark-blue: #073B4C;
+		--content-x-padding: 2rem;
 	}
+
+	html, body {
+		height: 100%;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+
 	html {
 		font-family: system-ui, sans-serif;
 		background-color: #ffffff;
+		font-size: 18px;
+		line-height: 1.5;
 	}
-	body {
-		padding: 1rem 2rem;
-		max-width: 1600px;
-		margin: auto;
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: "Arsenal", system-ui, sans-serif;
+		font-weight: 700;
+	}
+
+	footer {
+		padding: 1rem var(--content-x-padding);
+		background: #efefef;
 	}
 </style>
