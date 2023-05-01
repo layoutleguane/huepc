@@ -1,5 +1,4 @@
 ---
-import Alpaka from '../public/coolalpaka.png';
 
 export interface Props {
 	title: string;
@@ -18,11 +17,6 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
-		<header>
-			<img src={Alpaka} alt="image description" width="300" />
-			<h1>HüllerPolitCamp</h1>
-
-		</header>
 		<slot />
 	</body>
 </html>
@@ -30,6 +24,11 @@ const { title } = Astro.props;
 	:root {
 		--accent: 124, 58, 237;
 		--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
+		--color-red: #EF476F;
+		--color-yellow: #FFD166;
+		--color-green: #06D6A0;
+		--color-blue: #118AB2;
+		--color-dark-blue: #073B4C;
 	}
 	html {
 		font-family: system-ui, sans-serif;
@@ -39,24 +38,5 @@ const { title } = Astro.props;
 		padding: 1rem 2rem;
 		max-width: 1600px;
 		margin: auto;
-	}
-
-	header {
-		display: flex;
-		flex-direction: row;
-		gap: 2rem;
-		align-items: center;
-	}
-
-	header img {
-		height: 10rem;
-		width: auto;
-	}
-
-	header h1 {
-		font-size: 5rem;
-		font-weight: 800;
-		line-height: 1;
-		margin: 0;
 	}
 </style>

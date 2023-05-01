@@ -1,0 +1,64 @@
+---
+import Alpaka from '../public/coolalpaka.png';
+---
+
+<header>
+	<img src={Alpaka} alt="a cool alpaca with sunglases" width="300" />
+	<div class="flex-col flex-center">
+		<h1>HüllerPolitCamp</h1>
+		<h2 class="subhead">12.12.2012 - 12.12.2012</h2>
+	</div>
+</header>
+
+<style>
+
+
+header {
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+	height: 330px;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--color-dark-blue);
+	background: linear-gradient(90deg, rgba(7,113,221,1) 0%, rgba(2,76,151,1) 35%, rgba(15,74,134,1) 100%);
+}
+
+header img {
+	height: 13rem;
+	width: auto;
+	border-radius: 50%;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+header h1 {
+	font-size: 5rem;
+	font-weight: 800;
+	line-height: 1;
+	margin: 1rem;
+	color: white;
+	background-clip: text;
+	-webkit-background-clip: text;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-center {
+	align-items: center;
+}
+
+.subhead {
+	font-size: 3rem;
+	font-weight: 800;
+	line-height: 1;
+	margin: 0;
+	color: var(--color-red);
+	border-radius: 25px;
+	background-color: white;
+	padding: 7px 60px;
+}
+
+</style>
