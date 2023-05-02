@@ -5,16 +5,18 @@ import AlpakaLogo from '../components/AlpakaLogo.astro';
 ---
 
 <header class="mb-4">
-	<div class="logo">
-		<img src={Alpakas} aria-hidden="true" />
-		<h1>Hüller<br>Polit<br>Camp</h1>
-	</div>
+	<div class="container">
+		<div class="col-12 logo mb-4">
+			<img src={Alpakas} aria-hidden="true" />
+			<h1>Hüller<br>Polit<br>Camp</h1>
+		</div>
 
-	<div class="claim">
-		<h2>Menschen. Leben. Tanzen. Welt.</h2>
-		<h3>12.12.2024 - 12.12.2024</h3>
+		<div class="col-12 claim">
+			<h2>Menschen. Leben. Tanzen. Welt.</h2>
+			<h3>12.12.2024 - 12.12.2024</h3>
 
-		<button class="btn btn-primary">Sick brah sign me up</button>
+			<button class="btn btn-primary">Sick brah sign me up</button>
+		</div>
 	</div>
 </header>
 
@@ -26,9 +28,7 @@ header {
 	background-repeat: no-repeat;
 	height: 60vh;
 	padding-bottom: 10vh;
-	position: relative;
 
-//	color: #0D0632;
 	color: #1a073b;
 
 	.logo {
