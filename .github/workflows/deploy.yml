@@ -1,0 +1,38 @@
+name: Deploy to dev environment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set Node.js 16.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+          cache: 'yarn'
+
+      - name: Install Node dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build static page
+        run: yarn run build
+
+      - name: Deploy files via SFTP
+        uses: pressidium/lftp-mirror-action@v1
+        with:
+          host: sftp.fnoco.eu
+          user: huepc
+          pass: ${{ secrets.SFTP_PASSWORD }}
+
+          settings: 'sftp:auto-confirm=yes'
+          localDir: 'dist'
+          remoteDir: '/httpdocs'
