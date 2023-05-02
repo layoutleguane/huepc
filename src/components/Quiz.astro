@@ -1,22 +1,162 @@
 ---
-
+import Kamin from '../../public/kamin.jpg';
+import Sessions from '../../public/sessions.jpg';
 ---
+<script>
+	const options = [
+		{
+			option1: "Kaminfeuer", 
+			option2: "Sessions besuchen"
+		},
+		{
+			option1: "Katzen",
+			option2: "Alpaska"
+		},
+		{
+			option1: "vegetarisch",
+			option2: "vegan"
+		},
+		{
+			option1: "Session veranstalten",
+			option2: "Session besuchen"
+		},
+		{
+			option1: "Zettel und Stift",
+			option2: "Tastatur"
+		},
+		{
+			option1: "Politik",
+			option2: "Gesellschaft"
+		}
+	]
 
-<section>
+	let currentQuestion = -1;
+
+	function next() {
+		currentQuestion++;
+		if(options[currentQuestion] === undefined) {
+			return;
+		}
+
+		document.getElementById('opt1').innerHTML = options[currentQuestion].option1;
+		document.getElementById('opt2').innerHTML = options[currentQuestion].option2;
+	}	
+
+	addEventListener("load", (event) => {
+		next();
+
+		document.getElementById('leftCard').addEventListener("click", (event) => {
+			next();
+		});	
+
+		document.getElementById('rightCard').addEventListener("click", (event) => {
+			next();
+		});	
+	});	
+</script>
+
+<section class="content">
 	<h2>Noch unsicher?</h2>
 	<p>Du fragst dich, ob du zum HüPC kommen solltest? Mache ein Quiz und entscheide selbst.</p>
-	<div>
-		<div>
-			<h3>Option 1</h3>
-			<p>Am Kamin chillen.</p>
+	<div class="comparing">
+		<div class="center">
+			<div id="leftCard" class="article-card">
+				<div class="content">
+					<p id="opt1" class="title"></p>
+				</div>
+				<img src={Kamin} aria-hidden="true" />
+			</div>
 		</div>
 		<div>
-			<h3>Option 2</h3>
-			<p>Session besuchen.</p>
+			<p class="versus">VS</p>
+		</div>
+		<div class="center">
+			<div id="rightCard" class="article-card">
+				<div class="content">
+					<p id="opt2" class="title"></p>
+				</div>
+				<img src={Sessions} aria-hidden="true" />
+			</div>
 		</div>
 	</div>
 </section>
 
 <style type="text/css">
-	
+	.content {
+		padding: 1rem var(--content-x-padding);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border: 5px solid;
+		border-color: #1A073B;
+		border-radius: 25px;
+	}
+
+	.comparing {
+		display: flex;
+		flex-direction: row;
+		width: 60%;
+		align-items: center;
+		justify-content: space-around;
+		padding: 25px 0px;
+	}
+	.center {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}	
+
+	.article-card {
+		width: 220px;
+		height: 350px;
+		border-radius: 12px;
+		overflow: hidden;
+		position: relative;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+		transition: all 300ms;
+	}	
+
+	.article-card:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	}	
+
+	.article-card img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border: none;
+	}	
+
+	.article-card .content {
+		box-sizing: border-box;
+		width: 100%;
+		position: absolute;
+		padding: 30px 20px 20px 20px;
+		height: auto;
+		bottom: 0;
+		border: none;
+		background: linear-gradient(transparent, rgba(0, 0, 0, 0.6));
+	}
+
+	.article-card .title {
+		margin: 0;
+	}	
+
+	.article-card .title {
+		font-size: 17px;
+		color: #fff;
+	}
+
+	.versus {
+		font-weight: bold;
+		background-color: #1A073B;
+		border-radius: 50%;
+		height: 70px;
+		width: 70px;
+		display: table-cell;
+		text-align: center;
+		vertical-align: middle;
+		color: white;
+	}
 </style>
