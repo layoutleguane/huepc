@@ -1,0 +1,35 @@
+name: Deploy to dev environment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install astro and build site
+        uses: withastro/action@v0
+        with:
+          package-manager: yarn
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy files via SFTP
+        uses: pressidium/lftp-mirror-action@v1
+        with:
+          host: sftp.fnoco.eu
+          user: huepc
+          pass: ${{ secrets.SFTP_PASSWORD }}
+
+          settings: 'sftp:auto-confirm=yes'
+          localDir: 'dist'
+          remoteDir: '/httpdocs'
