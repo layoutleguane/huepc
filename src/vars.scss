@@ -1,6 +1,8 @@
 // Global SCSS variables, used to adjust Bootstrap stuff
 // Only use this to set SCSS internal stuff that does not get rendered to CSS
 
+$font-family-sans-serif: "Fira Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
 @import "bootstrap/scss/functions";
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/variables-dark";
