@@ -1,0 +1,10 @@
+// Global SCSS variables, used to adjust Bootstrap stuff
+// Only use this to set SCSS internal stuff that does not get rendered to CSS
+
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/root";
