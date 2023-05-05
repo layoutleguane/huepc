@@ -1,32 +1,53 @@
 ---
 import Kamin from '../../public/kamin.jpg';
 import Sessions from '../../public/sessions.jpg';
+import Cat from '../../public/cat.jpg';
+import Alpaka from '../../public/alpaka.jpg';
+import Vegie from '../../public/vegie.jpg';
+import Vegan from '../../public/vegan.jpg';
+import VisitSession from '../../public/visit-session.jpg';
+import Paper from '../../public/paper.jpg';
+import Tech from '../../public/tech.jpg';
+import Politic from '../../public/politic.jpg';
+import Society from '../../public/society.jpg';
 ---
 <script>
 	const options = [
 		{
-			option1: "Kaminfeuer", 
-			option2: "Sessions besuchen"
+			option1: "Kaminfeuer",
+			image1: '../../public/kamin.jpg', 
+			option2: "Sessions besuchen",
+			image2: '../../public/sessions.jpg'
 		},
 		{
 			option1: "Katzen",
-			option2: "Alpaska"
+			image1: '../../public/cat.jpg',
+			option2: "Alpaka",
+			image2: '../../public/alpaka.jpg'
 		},
 		{
 			option1: "vegetarisch",
-			option2: "vegan"
+			image1: '../../public/vegie.jpg',
+			option2: "vegan",
+			image2: '../../public/vegan.jpg'
 		},
 		{
 			option1: "Session veranstalten",
-			option2: "Session besuchen"
+			image1: '../../public/sessions.jpg',
+			option2: "Session besuchen",
+			image2: '../../public/visiting-session.jpg'
 		},
 		{
 			option1: "Zettel und Stift",
-			option2: "Tastatur"
+			image1: '../../public/paper.jpg',
+			option2: "Tastatur",
+			image2: '../../public/tech.jpg'
 		},
 		{
 			option1: "Politik",
-			option2: "Gesellschaft"
+			image1: '../../public/politic.jpg',
+			option2: "Gesellschaft",
+			image2: '../../public/society.jpg'
 		}
 	]
 
@@ -39,7 +60,9 @@ import Sessions from '../../public/sessions.jpg';
 		}
 
 		document.getElementById('opt1').innerHTML = options[currentQuestion].option1;
+		document.getElementById('img1').src = options[currentQuestion].image1;
 		document.getElementById('opt2').innerHTML = options[currentQuestion].option2;
+		document.getElementById('img2').src = options[currentQuestion].image2;
 	}	
 
 	addEventListener("load", (event) => {
@@ -64,7 +87,7 @@ import Sessions from '../../public/sessions.jpg';
 				<div class="content">
 					<p id="opt1" class="title"></p>
 				</div>
-				<img src={Kamin} aria-hidden="true" />
+				<img src={Kamin} aria-hidden="true" id="img1" />
 			</div>
 		</div>
 		<div>
@@ -75,7 +98,7 @@ import Sessions from '../../public/sessions.jpg';
 				<div class="content">
 					<p id="opt2" class="title"></p>
 				</div>
-				<img src={Sessions} aria-hidden="true" />
+				<img src={Sessions} aria-hidden="true" id="img2" />
 			</div>
 		</div>
 	</div>
