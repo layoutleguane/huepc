@@ -6,14 +6,9 @@ import AlpakaLogo from '../components/AlpakaLogo.astro';
 
 <header class="mb-4">
 	<div class="container">
-		<div class="col-12 logo mb-4">
-			<img src={Alpakas} aria-hidden="true" />
-			<h1>Hüller<br>Polit<br>Camp</h1>
-		</div>
-
-		<div class="col-12 claim">
-			<h2>Menschen. Leben. Tanzen. Welt.</h2>
-			<h3>12.12.2024 - 12.12.2024</h3>
+		<div class="col title">
+			<h1>Polit Camp</h1>
+			<h2>12.12.2024 - 12.12.2024</h2>
 
 			<button class="btn btn-primary">Sick brah sign me up</button>
 		</div>
@@ -22,49 +17,36 @@ import AlpakaLogo from '../components/AlpakaLogo.astro';
 
 <style lang="scss">
 header {
-	background: url(/hero-transition.svg);
+	background: url(/hero-raised-arms.PNG);
 	background-size: cover;
-	background-position: bottom;
+	background-position: top;
 	background-repeat: no-repeat;
-	height: 60vh;
-	padding-bottom: 10vh;
+	height: 75vh;
 
 	color: #1a073b;
 
-	.logo {
-		display: flex;
-		flex-direction: row;
-		padding: 1rem;
-
-		&, img {
-			height: 10rem;
-		}
-
-		h1 {
-			font-size: 2.5rem;
-			font-weight: 800;
-			line-height: 1;
-			margin: 1rem;
-			font-family: "Sigmar", sans-serif;
-		}
-	}
-
-	.claim {
+	.title {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin-top: -2rem;
 
-		h2 {
+		h1 {
 			font-size: 3.5rem;
-			font-weight: 700;
-			margin: 0;
+			font-weight: 800;
+			line-height: 1;
+			margin-top: 18rem;
+			margin-bottom: 1rem;
+			font-family: "Sigmar", sans-serif;
+			text-transform: uppercase;
+			text-shadow: -5px 5px 0px #FFFFFF;
 		}
 
-		h3 {
+		h2 {
 			font-size: 2.5rem;
-			font-weight: 400;
+			font-weight: 700;
 			margin: 0;
+			font-family: "Sigmar", sans-serif;
+			text-shadow: -5px 5px 0px #FFFFFF;
 		}
 
 		button {
