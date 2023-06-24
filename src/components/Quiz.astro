@@ -56,6 +56,8 @@ import Society from '../../public/society.jpg';
 	function next() {
 		currentQuestion++;
 		if(options[currentQuestion] === undefined) {
+			document.getElementById('comparing').style.display = 'none';
+			document.getElementById('result').style.display = 'block';
 			return;
 		}
 
@@ -75,15 +77,22 @@ import Society from '../../public/society.jpg';
 		document.getElementById('rightCard').addEventListener("click", (event) => {
 			next();
 		});	
-	});	
+	});
+
+	function rotation() {
+		var card1 = document.getElementById('leftCard');
+		var card2 = document.getElementById('rightCard');
+		card1.add(" rotate");
+		card2.add(" rotate");
+	}
 </script>
 
 <section class="content">
 	<h2>Noch unsicher?</h2>
 	<p>Du fragst dich, ob du zum HüPC kommen solltest? Mache ein Quiz und entscheide selbst.</p>
-	<div class="comparing">
+	<div id="comparing" class="comparing">
 		<div class="center">
-			<div id="leftCard" class="article-card">
+			<div id="leftCard" class="article-card animation" onclick="rotation()">
 				<div class="content">
 					<p id="opt1" class="title"></p>
 				</div>
@@ -94,7 +103,7 @@ import Society from '../../public/society.jpg';
 			<p class="versus">VS</p>
 		</div>
 		<div class="center">
-			<div id="rightCard" class="article-card">
+			<div id="rightCard" class="article-card animation" onclick="rotation()">
 				<div class="content">
 					<p id="opt2" class="title"></p>
 				</div>
@@ -102,16 +111,24 @@ import Society from '../../public/society.jpg';
 			</div>
 		</div>
 	</div>
+	<div id="result" class="card hidden" style="width: 18rem;">
+  		<div class="card-body result-card">
+    	<h3 class="card-title">Ergebnis</h3>
+    	<p class="card-text">Die Antworten haben dir hoffentlich schon einen ersten Eindruck geben können, was dich auf dem HüPC erwartet. Das Ergebnis ist einfach: Natürlich solltest du vorbeischauen.</p>
+    	<a href="#" class="btn btn-primary">Jetzt anmelden!</a>
+  </div>
+</div>
 </section>
 
-<style type="text/css">
+<style lang="scss">
 	.content {
 		padding: 1rem var(--content-x-padding);
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		border: 5px solid;
-		border-color: #1A073B;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+		background-color: $primary-color-light;
+		padding: 25px 0px;
 		border-radius: 25px;
 	}
 
@@ -137,6 +154,10 @@ import Society from '../../public/society.jpg';
 		position: relative;
 		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 		transition: all 300ms;
+	}
+
+	.article-card:active {
+		transform: none;
 	}	
 
 	.article-card:hover {
@@ -181,5 +202,39 @@ import Society from '../../public/society.jpg';
 		text-align: center;
 		vertical-align: middle;
 		color: white;
+	}
+
+	.animation {
+		animation-duration: 1s;
+		animation-fill-mode: both;
+	}
+
+	.hidden{
+		display: none;
+	}
+
+	.result-card {
+		background-color: $base-color;
+		border-radius: 12px;
+		overflow: hidden;
+		position: relative;
+		padding: 30px 20px 20px 20px;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+		transition: all 300ms;
+	}
+
+	@keyframes rotate {
+		from {
+			transform: rotateY(-180deg);
+		}
+
+		to {
+			transform: rotateY(0);
+		}
+	}
+
+	.rotate {
+		animation-name: rotate;
+		animation-timing-function: linear;
 	}
 </style>
