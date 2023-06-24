@@ -10,3 +10,11 @@ $font-family-sans-serif: "Fira Sans", system-ui, -apple-system, "Segoe UI", Robo
 @import "bootstrap/scss/mixins";
 @import "bootstrap/scss/utilities";
 @import "bootstrap/scss/root";
+
+// Colors:
+$base-color: #FFFFFF; // white
+$highlight-color: #1A073B; // dark rich purple
+$primary-color: #F8BC72; // orange
+$primary-color-light: #FFDDBF; // light orange
+$secondary-color: #FBA389; // rosé
+
