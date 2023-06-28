@@ -4,6 +4,7 @@
 $font-family-sans-serif: "Fira Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 $primary: #1A073B;
+$secondary: #FBA389;
 
 @import "bootstrap/scss/functions";
 @import "bootstrap/scss/variables";
@@ -12,6 +13,7 @@ $primary: #1A073B;
 @import "bootstrap/scss/mixins";
 @import "bootstrap/scss/utilities";
 @import "bootstrap/scss/root";
+
 
 // Colors:
 $base-color: #FFFFFF; // white
