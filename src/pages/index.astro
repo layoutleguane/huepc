@@ -2,7 +2,13 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Hero from '../components/Hero.astro';
+import Location from '../components/Location.astro';
+import FAQ from '../components/Faq.astro';
 import Quiz from '../components/Quiz.astro';
+import SignUp from '../components/signup.astro';
+import Social from '../components/social.astro';
+
+import HuePC22 from '../../public/huepc22.jpg'
 ---
 
 <Layout title="HüllerPolitCamp">
@@ -13,25 +19,42 @@ import Quiz from '../components/Quiz.astro';
 			<div class="row">
 				<div class="col-md-4 mb-4">
 					<h3 class="text-uppercase fw-bold fs-5">Datum</h3>
-					<span class="fs-5">12.12.2024 - 12.12.2024</span>
+					<span class="fs-5"> Montag, 12.12.2024 bis<br> Sonntag, 12.12.2024</span>
 				</div>
 				<div class="col-md-4 mb-4">
 					<h3 class="text-uppercase fw-bold fs-5">Ort</h3>
-					<span class="fs-5">ABC Bildungs-<br> und Tagungszentrum, Hüll</span>
+					<span class="fs-5">ABC Bildungs-<br> und Tagungszentrum<br>Bauernreihe 1, 21706 Drochtersen</span>
 				</div>
 				<div class="col-md-4 mb-4">
 					<h3 class="text-uppercase fw-bold fs-5">Preis</h3>
-					<span class="fs-5">Nix, aber Spende pls</span>
+					<span class="fs-5">Freiwilliger Beitrag</span>
 				</div>
 			</div>
 		</div>
 
 		<div class="container mt-4">
-			<h2>Zur Geschichte des HüPC: Das JugendPolitCamp!</h2>
-			<p>Aus dem JugendPolitCamp wird in diesem Jahr: das Hüller PolitCamp!
-			Das JugendPolitCamp (JPC) geht ins elfte Jahr. Viele Teilnehmende haben diese Jahre kontinuierlich mitgestaltet. Nun ist diese erste Generation JPC langsam aus dem Jugendalter herausgewachsen. Das ändert nichts daran, dass sie Räume suchen und gestalten wollen, in denen sie sich als Aktivist*innen, politische Bildner*innen – die sie zum Teil inzwischen sind – oder einfach politisch interessierte Menschen austauschen, vernetzen und Pläne schmieden können. So entstand die Idee, das JPC dieses Jahr für einen intergenerativen Austausch zu öffnen.<br>
-			Dieses Format soll nicht bedeuten, dass sich das JPC abschafft. Es ist eher als ein Übergang zu verstehen, denn wir wollen jungen Menschen weiterhin frei gestaltbaren Raum bieten, in dem sie unter sich sind. Wir hoffen, dass das diesjährige Format junge Menschen anspricht, die Lust haben, das JPC zukünftig weiterzuführen.</p>
-			<Quiz />
+			<div class="row align-items-center">
+				<div class="col-md-6">
+					<h2 class="text-primary">Sei dabei!</h2>
+					<p>Du bringst Ideen zur Gestaltung von Politik und Gesellschaft mit, möchtest ein Thema gerne genauer Verstehen, oder suchst Erfahrungsaustausch? Dann ist dieses Event für dich. Dabei musst du kein*e Expert*in sein, oder eine Präsentation vorbereitet haben: Hier sind alle willkommen beizutragen, sich einzubringen, oder nur zuzuhören.<br>
+					Das Hüller PolitCamp (HüPC) gibt den Raum um gemeinsam über alle erdenklichen Themen aus Politik und Gesellschaft zu sprechen, diskutieren und in den Austausch zu treten.<br>
+					Ein festen Programm gibt es nicht. Wir entscheiden vor Ort selbst was in das Tages-Programm aufgenommen werden soll.</p>
+					<button class="btn btn-secondary">Themen der letzten Jahre</button>
+				</div>
+				<div class="col-md-4">
+					<img src={HuePC22} class="mw-100 p-4">
+				</div>
+			</div>
 		</div>
+
+		<Location />
+
+		<SignUp />
+
+		<Social />
+
+		<FAQ />
+
+		<Quiz />
 	</main>
 </Layout>
