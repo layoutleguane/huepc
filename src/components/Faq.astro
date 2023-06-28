@@ -1,0 +1,89 @@
+---
+
+---
+
+<script>
+	const collapseElementList = document.querySelectorAll('.collapse')
+	const collapseList = [...collapseElementList].map(collapseEl => new bootstrap.Collapse(collapseEl))
+</script>
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="container">
+	<h2 class="text-primary">Noch Fragen?</h2>
+	<p>Du erreichst uns jeder Zeit per Mail an kontakt@beispiel.de und wir stehen dir gerne bei Fragen zur Seite. Übliche Eine Ansammlung an oft aufkommenden Fragen haben wir dir hier bereits beantwortet:</p>
+
+	<div>
+		<button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    	Wie komme ich zum HüPC?</button>
+		
+		<div class="collapse" id="collapseExample">
+  			<div class="card card-body">
+    			<p>Wenn du per Auto, oder Fahrrad anreist, kannst du direkt vor Ort im Hof parken. Die Adresse für dein Navi lautet: <span class="">Bauernreihe 1, 21706 Drochtersen</span>.<br>
+    			Per ÖPNV buchst du eine Fahrt nach Himmepforten. Dort holen wir dich um 1X:XX Uhr mit dem Schattelbus ab und bringen dich zum Gelände. Hat dein Zug Verspätung, lass es uns wissen.<br>
+    			Wenn du später anreist holen wir dich ebenfalls vom Bahnhof ab. Gib dafür bitte per Mail Bescheid.</p>
+  			</div>
+		</div>
+	</div>
+	<div>
+		<h3>Lohnt es sich nicht für die gesamte Zeit zu kommen?</h3>
+		<p>Am ersten Tag ist nur die Begrüßung am letzten Tag nur die Abreise. Alles dazwischen als ganzer Tag lohnt sich gg auch, je nach Anreiseweg.</p>
+	</div>
+	<div>
+		<h3>Was kostet mich das Event?</h3>
+		<p>nichts. Selbst die Verpflegung ist inklusive. Wir bitten jedoch um eine Spende.</p>
+	</div>
+	<div>
+		<h3>Was darf in meinem Reisegepäck nicht fehlen?</h3>
+		<p>Bettwäsche und Handtücher kannst du dir vor Ort gegen einen Umkstenbeitrag leihen. Alles weitere was du für Übernachtungen brauchst, solltest du selbst mitbringen. Wir empfehlen warme Socken, eine bequeme Hose und deine Liebsten Gesellschaftsspiele für die Abend-Unterhaltung.</p>
+	</div>
+	<div>
+		<h3>Was für Essen erwartet mich?</h3>
+		<p>Da vor Ort frisch gekocht wird, kann auf Allergien und Besonderheiten rücksicht genommen werden. Bitte gebe deine Präferenzen und Besonderheiten bei der Anmedung an.</p>
+	</div>
+	<div>
+		<h3>Kann ich vor Ort einkaufen?</h3>
+		<p>Die schnelle Antwort ist nein. Es gibt einen kleinen Dorf-Edeka x Minuten zu Fuß entfernt. Mit einem Auto kann man auch weiter in einen REWE fahren. Vor Ort kann man Snack und Getränke kaufen.</p>
+	</div>
+	<div>
+		<h3>Wie erfolgt die Unterbringung?</h3>
+		<p>In Mehrbettzimmer mit Gemeinschaftsdusche und Bad.</p>
+	</div>
+</section>
