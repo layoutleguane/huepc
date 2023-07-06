@@ -2,13 +2,14 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Hero from '../components/Hero.astro';
-import Location from '../components/Location.astro';
-import FAQ from '../components/Faq.astro';
 import Quiz from '../components/Quiz.astro';
-import SignUp from '../components/Signup.astro';
 import Social from '../components/Social.astro';
 
-import HuePC22 from '../../public/huepc22.jpg'
+import HuePC22 from '../../public/huepc22.jpg';
+import Abc from '../../public/abc.jpg';
+import Dachstuhl from '../../public/arbeiten-am-dachstuhl.jpg';
+import Huell from '../../public/huell.jpg';
+import Paper from '../../public/paper.jpg';
 ---
 
 <Layout title="HüllerPolitCamp">
@@ -39,21 +40,45 @@ import HuePC22 from '../../public/huepc22.jpg'
 					<p>Du bringst Ideen zur Gestaltung von Politik und Gesellschaft mit, möchtest ein Thema gerne genauer Verstehen, oder suchst Erfahrungsaustausch? Dann ist dieses Event für dich. Dabei musst du kein*e Expert*in sein, oder eine Präsentation vorbereitet haben: Hier sind alle willkommen beizutragen, sich einzubringen, oder nur zuzuhören.<br>
 					Das Hüller PolitCamp (HüPC) gibt den Raum um gemeinsam über alle erdenklichen Themen aus Politik und Gesellschaft zu sprechen, diskutieren und in den Austausch zu treten.<br>
 					Ein festen Programm gibt es nicht. Wir entscheiden vor Ort selbst was in das Tages-Programm aufgenommen werden soll.</p>
-					<button class="btn btn-secondary">Themen der letzten Jahre</button>
+					<a href="/infos/" class="btn btn-secondary">Alles Organisatorische</a>
 				</div>
 				<div class="col-md-4">
-					<img src={HuePC22} class="mw-100 p-3">
+					<img src={HuePC22} class="mw-100 p-md-5">
 				</div>
 			</div>
 		</div>
 
-		<Location />
+		<section class="container my-4">
+			<div class="row align-items-center">
+				<div class="col-md-5">
+					<img src={Huell} aria-hidden="true" class="mw-100 p-md-5" />
+				</div>
+				<div class="col-md-7 p-4">
+					<h2 class="text-primary">Auf nach Hüll!</h2>
+					<p>Ja, Hüll liegt in Niedersachsen am Ende der Welt. Aber wir geben alles, damit du trotzdem kommst. Keine ÖPNV Verbindung direkt zum Tagungszentrum? Wir holen dich und alle Anderen vom Bahnhof in Himmelpforten ab. Keine Supermärkte in Laufreichweitere? Hier gibt es drei frisch vor Ort gekochte Mahlzeiten am Tag und zusätzlich Kaffee und Kuchen. Auf Unverträglichkeiten können so sogar besonders Rücksicht nehmen. Gratis Wasser und Tee vor Ort und Auswahl an der Getränke und Snackbar. Schnelles Internet auf dem ganzen Gelände, Kamera und Laptops zum Leihen und eine moderne Multi-Media-Ausstattung erwarten dich. Untergebracht wirst du vor Ort im alten schön ausgebauten Bauernhaus mit Blick auf Katzen und Alpakas im Garten.<br>
+					Du willst noch mehr über das ABC erfahren, oder einen Blick in die Zimmer werfen?</p>
+					<a href="/vor-ort/" class="btn btn-secondary">Alles zur Unterbringung und Anreise</a>
+				</div>
+			</div>
+		</section>
 
-		<SignUp />
+		<section class="container my-4">
+			<div class="row align-items-center">
+				<div class="col-md-8">
+					<h2 class="text-primary">Jetzt Anmelden!</h2>
+					<p>Falls wir dich immer noch nicht überzeugt haben: All das ist kostenlos. Unerbringung und Verpflegung inklusive. Falls du kannst, freuen wir uns über eine Spende um all dies weiterhin möglich zu machen.<br>
+					Du musst eigentlich arbeiten? Das Event ist in Niedersachen, Hamburg und Schleswig-Holstein als Bildungs-Urlaub anerkannt.<br>
+					Wenn das mal keine gute Basis ist um es einfach mal auszubrobieren!</p>
+					<button class="btn btn-primary">Anmelden</button>
+				</div>
+				<div class="col-md-4">
+					<img src={Paper} class="mw-100 p-md-5">
+				</div>
+			</div>
+		</section>
+
 
 		<Social />
-
-		<FAQ />
 
 		<Quiz />
 	</main>
