@@ -87,8 +87,8 @@ import Society from '../../public/society.jpg';
 	}
 </script>
 
-<section class="content p-3">
-	<div class="container bg-white p-3 text-center rounded-4 d-flex flex-column align-items-center">
+<section class="content bg-primary p-3">
+	<div class="container bg-white p-3 text-center box d-flex flex-column align-items-center">
 		<h2 class="text-primary">Noch unsicher?</h2>
 		<p>Du fragst dich, ob du zum HüPC kommen solltest? Mache ein Quiz und entscheide selbst.</p>
 		<div id="comparing" class="comparing">
@@ -129,7 +129,15 @@ import Society from '../../public/society.jpg';
 		flex-direction: column;
 		align-items: center;
 		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-		background-color: #F8BC72;
+	}
+
+	.box {
+  		--mask:radial-gradient(34.99px at 48.00px 50%,#000 99%,#0000 101%) 0 calc(50% - 60px)/51% 120px repeat-y,
+    		radial-gradient(34.99px at -18px 50%,#0000 99%,#000 101%) 30px 50%/calc(51% - 30px) 120px repeat-y,
+			radial-gradient(34.99px at calc(100% - 48.00px) 50%,#000 99%,#0000 101%) 100% calc(50% - 60px)/51% 120px repeat-y,
+    		radial-gradient(34.99px at calc(100% + 18.00px) 50%,#0000 99%,#000 101%) calc(100% - 30px) 50%/calc(51% - 30px) 120px repeat-y;
+  		-webkit-mask: var(--mask);
+  		mask: var(--mask);
 	}
 
 	.comparing {
