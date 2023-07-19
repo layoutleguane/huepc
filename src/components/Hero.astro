@@ -8,10 +8,7 @@ import AlpakaLogo from '../components/AlpakaLogo.astro';
 	<div class="container">
 		<div class="row">
 			<div class="col title">
-				<h1>Polit Camp</h1>
-				<h2>12.12.2024 - 12.12.2024</h2>
-
-				<button class="btn btn-primary">Sick brah sign me up</button>
+				<h1 class="text-primary"><span class="smaller">Hüller</span><br>Polit Camp</h1>
 			</div>
 		</div>
 	</div>
@@ -19,13 +16,17 @@ import AlpakaLogo from '../components/AlpakaLogo.astro';
 
 <style lang="scss">
 header {
-	background: url(/hero-raised-arms.PNG);
+	background: url(/hero.png);
 	background-size: cover;
 	background-position: top;
 	background-repeat: no-repeat;
 	height: 75vh;
 
-	color: #1a073b;
+	--mask:
+	radial-gradient(111.80px at 50% calc(100% - 150.00px),#000 99%,#0000 101%) calc(50% - 100px) 0/200px 100%,
+	radial-gradient(111.80px at 50% calc(100% + 100.00px),#0000 99%,#000 101%) 50% calc(100% - 50px)/200px 100% repeat-x;
+	-webkit-mask: var(--mask);
+	mask: var(--mask);
 
 	.title {
 		display: flex;
@@ -33,14 +34,18 @@ header {
 		align-items: center;
 
 		h1 {
-			font-size: 3.5rem;
+			font-size: 5.0rem;
 			font-weight: 800;
 			line-height: 1;
-			margin-top: 18rem;
-			margin-bottom: 1rem;
+			margin-top: 17rem;
+			margin-bottom: 2rem;
 			font-family: "Sigmar", sans-serif;
 			text-transform: uppercase;
-			text-shadow: -5px 5px 0px #FFFFFF;
+			text-shadow: -4px 4px 0px #FFFFFF;
+
+			.smaller {
+				font-size: 3rem;
+			}
 		}
 
 		h2 {
