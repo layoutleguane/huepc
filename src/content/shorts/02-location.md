@@ -1,0 +1,5 @@
+---
+title: Auf nach Hüll!
+---
+Ja, Hüll liegt in Niedersachsen am Ende der Welt. Aber wir geben alles, damit du trotzdem kommst. Keine ÖPNV Verbindung direkt zum Tagungszentrum? Wir holen dich und alle Anderen vom Bahnhof in Himmelpforten ab. Keine Supermärkte in Laufreichweitere? Hier gibt es drei frisch vor Ort gekochte Mahlzeiten am Tag und zusätzlich Kaffee und Kuchen. Auf Unverträglichkeiten können so sogar besonders Rücksicht nehmen. Gratis Wasser und Tee vor Ort und Auswahl an der Getränke und Snackbar. Schnelles Internet auf dem ganzen Gelände, Kamera und Laptops zum Leihen und eine moderne Multi-Media-Ausstattung erwarten dich. Untergebracht wirst du vor Ort im alten schön ausgebauten Bauernhaus mit Blick auf Katzen und Alpakas im Garten.
+Du willst noch mehr über das ABC erfahren, oder einen Blick in die Zimmer werfen?

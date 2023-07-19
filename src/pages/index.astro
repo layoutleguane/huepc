@@ -10,13 +10,17 @@ import Abc from '../../public/abc.jpg';
 import Dachstuhl from '../../public/arbeiten-am-dachstuhl.jpg';
 import Huell from '../../public/huell.jpg';
 import Paper from '../../public/paper.jpg';
+
+import * as introText from '../content/shorts/01-intro.md';
+import * as locationText from '../content/shorts/02-location.md';
+import * as actionText from '../content/shorts/03-call-to-action.md';
 ---
 
 <Layout title="HüllerPolitCamp">
 	<main>
 		<Hero />
 
-		<div class="container">
+		<section class="container">
 			<div class="row">
 				<div class="col-md-4 mb-4">
 					<h3 class="text-uppercase fw-bold fs-5">Datum</h3>
@@ -31,52 +35,48 @@ import Paper from '../../public/paper.jpg';
 					<span class="fs-5">Freiwilliger Beitrag</span>
 				</div>
 			</div>
-		</div>
+		</section>
 
-		<div class="container mt-5">
-			<div class="row align-items-center">
-				<div class="col-md-7">
-					<h2 class="text-primary">Sei dabei!</h2>
-					<p>Du bringst Ideen zur Gestaltung von Politik und Gesellschaft mit, möchtest ein Thema gerne genauer Verstehen, oder suchst Erfahrungsaustausch? Dann ist dieses Event für dich. Dabei musst du kein*e Expert*in sein, oder eine Präsentation vorbereitet haben: Hier sind alle willkommen beizutragen, sich einzubringen, oder nur zuzuhören.<br>
-					Das Hüller PolitCamp (HüPC) gibt den Raum um gemeinsam über alle erdenklichen Themen aus Politik und Gesellschaft zu sprechen, diskutieren und in den Austausch zu treten.<br>
-					Ein festen Programm gibt es nicht. Wir entscheiden vor Ort selbst was in das Tages-Programm aufgenommen werden soll.</p>
-					<a href="/infos/" class="btn btn-secondary">Alles Organisatorische</a>
-				</div>
-				<div class="col-md-4">
-					<img src={HuePC22} class="mw-100 p-md-5">
+		<section>
+			<div class="container mt-5">
+				<div class="row align-items-center">
+					<div class="col-md-7">
+						<h2 class="text-primary">{introText.frontmatter.title}</h2>
+						<p set:html={introText.compiledContent()}/>
+						<a href="/infos/" class="btn btn-secondary">Alles Organisatorische</a>
+					</div>
+					<div class="col-md-4">
+						<img src={HuePC22} class="mw-100 p-md-5">
+					</div>
 				</div>
 			</div>
-		</div>
 
-		<section class="container my-4">
-			<div class="row align-items-center">
-				<div class="col-md-5">
-					<img src={Huell} aria-hidden="true" class="mw-100 p-md-5" />
+			<div class="container my-4">
+				<div class="row align-items-center">
+					<div class="col-md-5">
+						<img src={Huell} aria-hidden="true" class="mw-100 p-md-5" />
+					</div>
+					<div class="col-md-7 p-4">
+						<h2 class="text-primary">{locationText.frontmatter.title}</h2>
+						<p set:html={locationText.compiledContent()}/>
+						<a href="/vor-ort/" class="btn btn-secondary">Alles zur Unterbringung und Anreise</a>
+					</div>
 				</div>
-				<div class="col-md-7 p-4">
-					<h2 class="text-primary">Auf nach Hüll!</h2>
-					<p>Ja, Hüll liegt in Niedersachsen am Ende der Welt. Aber wir geben alles, damit du trotzdem kommst. Keine ÖPNV Verbindung direkt zum Tagungszentrum? Wir holen dich und alle Anderen vom Bahnhof in Himmelpforten ab. Keine Supermärkte in Laufreichweitere? Hier gibt es drei frisch vor Ort gekochte Mahlzeiten am Tag und zusätzlich Kaffee und Kuchen. Auf Unverträglichkeiten können so sogar besonders Rücksicht nehmen. Gratis Wasser und Tee vor Ort und Auswahl an der Getränke und Snackbar. Schnelles Internet auf dem ganzen Gelände, Kamera und Laptops zum Leihen und eine moderne Multi-Media-Ausstattung erwarten dich. Untergebracht wirst du vor Ort im alten schön ausgebauten Bauernhaus mit Blick auf Katzen und Alpakas im Garten.<br>
-					Du willst noch mehr über das ABC erfahren, oder einen Blick in die Zimmer werfen?</p>
-					<a href="/vor-ort/" class="btn btn-secondary">Alles zur Unterbringung und Anreise</a>
+			</div>
+
+			<div class="container my-4">
+				<div class="row align-items-center">
+					<div class="col-md-8">
+						<h2 class="text-primary">{actionText.frontmatter.title}</h2>
+						<p set:html={actionText.compiledContent()}/>
+						<button class="btn btn-primary">Anmelden</button>
+					</div>
+					<div class="col-md-4">
+						<img src={Paper} class="mw-100 p-md-5">
+					</div>
 				</div>
 			</div>
 		</section>
-
-		<section class="container my-4">
-			<div class="row align-items-center">
-				<div class="col-md-8">
-					<h2 class="text-primary">Jetzt Anmelden!</h2>
-					<p>Falls wir dich immer noch nicht überzeugt haben: All das ist kostenlos. Unerbringung und Verpflegung inklusive. Falls du kannst, freuen wir uns über eine Spende um all dies weiterhin möglich zu machen.<br>
-					Du musst eigentlich arbeiten? Das Event ist in Niedersachen, Hamburg und Schleswig-Holstein als Bildungs-Urlaub anerkannt.<br>
-					Wenn das mal keine gute Basis ist um es einfach mal auszubrobieren!</p>
-					<button class="btn btn-primary">Anmelden</button>
-				</div>
-				<div class="col-md-4">
-					<img src={Paper} class="mw-100 p-md-5">
-				</div>
-			</div>
-		</section>
-
 
 		<Social />
 
