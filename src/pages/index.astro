@@ -14,6 +14,8 @@ import Paper from '../../public/paper.jpg';
 import * as introText from '../content/shorts/01-intro.md';
 import * as locationText from '../content/shorts/02-location.md';
 import * as actionText from '../content/shorts/03-call-to-action.md';
+
+import * as mainInfo from '../content/main-infos.md';
 ---
 
 <Layout title="HüllerPolitCamp">
@@ -24,15 +26,15 @@ import * as actionText from '../content/shorts/03-call-to-action.md';
 			<div class="row">
 				<div class="col-md-4 mb-4">
 					<h3 class="text-uppercase fw-bold fs-5">Datum</h3>
-					<span class="fs-5"> Montag, 12.12.2024 bis<br> Sonntag, 12.12.2024</span>
+					<span class="fs-5">{mainInfo.frontmatter.date}</span>
 				</div>
 				<div class="col-md-4 mb-4">
 					<h3 class="text-uppercase fw-bold fs-5">Ort</h3>
-					<span class="fs-5">ABC Bildungs-<br> und Tagungszentrum<br>Bauernreihe 1, 21706 Drochtersen</span>
+					<span class="fs-5">{mainInfo.frontmatter.location}</span>
 				</div>
 				<div class="col-md-4 mb-4">
 					<h3 class="text-uppercase fw-bold fs-5">Preis</h3>
-					<span class="fs-5">Freiwilliger Beitrag</span>
+					<span class="fs-5">{mainInfo.frontmatter.price}</span>
 				</div>
 			</div>
 		</section>

@@ -1,0 +1,37 @@
+---
+title: Hüller PolitCamp
+subtitle: Eine Mehrgenerationen-Mitmach-Konferenz für Jugendliche und Erwachsene
+---
+
+
+## Du machst das Programm
+
+Beim Hüller PolitCamp handelt es sich um ein BarCamp, auch Un-Konferenzt genannt. Denn im Gegensatz zu einer Konferenz gibt es kein festes Programm und keine eingeladenen Expert*innen. Die Teilnehmenden entscheiden gemeinsam, über was sie sprechen möchten und planen von Tag zu Tag das Programm.
+
+Beim HüPC dreht sich alles um Politik und Gesellschaft. Ihr möchtet über eure politischen Ziele, Forderungen oder Ansichten sprechen? Ihr habt den Wunsch, politische und gesellschaftliche Entwicklungen besser zu verstehen? Ihr sucht Menschen, mit denen ihr euch für oder gegen eine Sache zusammentun könnt? Ihr sucht Austausch auf Augenhöhe? Dann seid ihr richtig beim HüPC. Ihr bestimmt, über was gesprochen wird, in welche Sessions und Diskussionen ihr euch einbringt und in welche nicht.
+
+## Wie funktioniert ein BarCamp?
+
+Täglich wird ein sogenannter "Sessionplan" für den Tag erstellt. Eine Session ist ein Zeitfenster von 45 Minuten. Eine Session kann Vieles sein: Ein Vortrag, eine Diskussion, ein Austauschgespräch unter Betroffenen, das Testen eines Spiels, oder eine Ideensammlung. Es hat auch schon Sessions in Form einer politischen Aktion gegeben (angemeldete Demo).
+Ideen für Sessions werden auf Karten geschrieben und gemeinsam zu einem Programm erstellt. Ihr sucht euch über den Tag Sessions aus, die euch interessieren und stellt so euren Tagesplan zusammen.
+Ihr merkt, dass euch das Thema gar nicht so sehr interessiert, wie ihr dachtet. Kein Problem. Ihr könnt die Session jederzeit wieder verlassen.
+
+## Teilnahmebeitrag
+
+Das HüPC kostet Geld, wir wollen aber niemanden ausschließen. Projektfördergelder machen es möglich, dass wir diese Veranstaltung auf Spendenbasis bzw. ohne Teilnahmebeitrag anbieten können. Deswegen bieten wir unterschiedliche Preise an. Wenn eine Spende für das ABC Bildungs- und Tagungszentrum für dich möglich ist, gib nach Selbsteinschätzung einen selbst gewählten Preis an. Jeder Euro hilft, den Erhalt des ABC auch nach der Corona-Krise sicherzustellen. Wenn du es dir nicht leisten kannst, kannst du aber auch kostenlos teilnehmen. Weil wir möglichst vielen Menschen die Online-Bezahlung ermöglichen wollen, haben wir neben Überweisungen auch Paypal als Zahlungsmöglichkeit. Wir freuen uns aber, wenn es für dich möglich ist, eine reguläre Überweisung zu machen. Dann geht das Geld komplett an uns und nicht an den Zahlungsdienst.
+
+Die Teilnahme beim HüPC beinhaltet Übernachtung in Mehrbettzimmern sowie Vollverpflegung (drei Mahlzeiten sowie Kaffee und Kuchen). Wir verfügen über eine sehr begrenzte Anzahl an Einzelzimmern. Falls du unbedingt in ein Einzelzimmer willst, gib das bitte unter “Zimmerwünsche” an. Wir bitten für Einzelzimmer um einen Teilnahmebeitrag ab 50€ (im Formular anpassbar).
+
+Bitte beachte, dass in der näheren Umgebung weder eine Bank noch einen Kiosk oder ähnliches gibt. Lediglich einen Dorf-Edeka mit sehr kurzen Öffnungszeiten. Wenn du gerne spezielle Süßigkeiten, Getränke oder sonst irgendwas haben willst, bring es bitte selbst mit. Wir verkaufen im ABC auch eine kleine Auswahl an Getränken und Süßigkeiten, die jederzeit zugänglich ist. Falls du vor Ort im ABC etwas kaufen oder leihen möchtest, ist es wichtig, dass du Bargeld dabei hast. Wie gesagt, es gibt keinen Bankautomaten in der Nähe.
+
+## Rahmenbedingungen
+
+Das HüPC soll ein Ort sein, an dem sich alle Menschen so wohl und sicher fühlen wie möglich. Darauf basiert die Teilnahme am HüPC. Alle Teilgebenden sollen so wenig wie möglich in ihrer freien Entfaltung auf dem HüPC be_hindert werden. Wir können aber keine Sicheren Räume (Safe Spaces) schaffen. Wir sorgen im Rahmen der uns zur Verfügung stehenden Mittel für eine sichere Teilnahme aller Teilgebenden. Dazu gehört Folgendes:
+
+### Barrierearmut
+
+Unser Tagungshaus ist alt und die finanziellen Mittel knapp. Darum sind wir mit der Barrierefreiheit im Haus noch lange nicht so weit, wie wir möchten. Doch wir sind auf einem guten Weg. Wir fordern von uns selbst eine [Haltung und Perspektive](https://www.abc-huell.de/ueber-uns/#disabilitystatement), die Barrieren wahrnimmt. Die Barrieren, die wir erkennen, bauen wir nach und nach ab. Bei Fragen wendet euch gerne vertrauensvoll an unser Orga Team (Kontaktdaten siehe unten).
+
+### Verhaltenskodex
+
+Wir verfolgen ein Achtsamkeitskonzept. Ein Teil davon ist ein [Verhaltenskodex](https://jugendpolit.camp/code-of-conduct/), der für das HüPC gilt.
