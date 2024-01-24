@@ -5,11 +5,9 @@ import Hero from '../components/Hero.astro';
 import Quiz from '../components/Quiz.astro';
 import Social from '../components/Social.astro';
 
-import HuePC22 from '../../public/huepc22.jpg';
-import Abc from '../../public/abc.jpg';
-import Dachstuhl from '../../public/arbeiten-am-dachstuhl.jpg';
-import Huell from '../../public/huell.jpg';
-import Paper from '../../public/paper.jpg';
+import HuePC22 from '../../public/huepc22.webp';
+import Huell from '../../public/huell.webp';
+import Paper from '../../public/paper.webp';
 
 import * as introText from '../content/shorts/01-intro.md';
 import * as locationText from '../content/shorts/02-location.md';
@@ -26,7 +24,7 @@ import * as mainInfo from '../content/main-infos.md';
 			<div class="row">
 				<div class="col-md-4 mb-4">
 					<h3 class="text-uppercase fw-bold fs-5">Datum</h3>
-					<span class="fs-5">{mainInfo.frontmatter.date}</span>
+					<span class="fs-5">{mainInfo.frontmatter.start_date} <br>bis {mainInfo.frontmatter.end_date}</span>
 				</div>
 				<div class="col-md-4 mb-4">
 					<h3 class="text-uppercase fw-bold fs-5">Ort</h3>
@@ -48,7 +46,7 @@ import * as mainInfo from '../content/main-infos.md';
 						<a href="/infos/" class="btn btn-secondary">Alles Organisatorische</a>
 					</div>
 					<div class="col-md-4">
-						<img src={HuePC22} class="mw-100 p-md-5">
+						<img src={HuePC22} class="mw-100 p-md-5" alt="Eine Gruppe von Menschen sitzt unter einem Baum in Klappstühlen.">
 					</div>
 				</div>
 			</div>
@@ -56,7 +54,7 @@ import * as mainInfo from '../content/main-infos.md';
 			<div class="container my-4">
 				<div class="row align-items-center">
 					<div class="col-md-5">
-						<img src={Huell} aria-hidden="true" class="mw-100 p-md-5" />
+						<img src={Huell} aria-hidden="true" class="mw-100 p-md-5" alt="Zwei alte Fachwerkhäuser mit Reetdach, hinter einer Weide." />
 					</div>
 					<div class="col-md-7 p-4">
 						<h2 class="text-primary">{locationText.frontmatter.title}</h2>
@@ -74,14 +72,12 @@ import * as mainInfo from '../content/main-infos.md';
 						<button class="btn btn-primary">Anmelden</button>
 					</div>
 					<div class="col-md-4">
-						<img src={Paper} class="mw-100 p-md-5">
+						<img src={Paper} class="mw-100 p-md-5" alt="Blick über die Schulter einer Person, welche auf dem Rasen liegt und auf einem Blatt Papier Notizen zum Thema 'Polarisierung' verfasst.">
 					</div>
 				</div>
 			</div>
 		</section>
 
 		<Social />
-
-		<Quiz />
 	</main>
 </Layout>
