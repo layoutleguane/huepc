@@ -72,6 +72,10 @@ const { title } = Astro.props;
 	@import "bootstrap/scss/helpers";
 	@import "bootstrap/scss/utilities/api";
 
+	:root h1,h2 {
+		--bs-heading-color: #1A073B;
+	}
+
 	h1, h2 {
 		font-family: "Sigmar", sans-serif;
 	}
@@ -83,4 +87,5 @@ const { title } = Astro.props;
 	.navbar {
 		background: #F8BC72;
 	}
+
 </style>
