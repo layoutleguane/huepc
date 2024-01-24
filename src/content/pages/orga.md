@@ -28,18 +28,11 @@ Das HüPC soll ein Ort sein, an dem sich alle Menschen so wohl und sicher fühle
 
 ### Barrierearmut
 
-Unser Tagungshaus ist alt und die finanziellen Mittel knapp. Darum sind wir mit der Barrierefreiheit im Haus noch lange nicht so weit, wie wir möchten. Doch wir sind auf einem guten Weg. Wir fordern von uns selbst eine [Haltung und Perspektive](https://www.abc-huell.de/ueber-uns/#disabilitystatement), die Barrieren wahrnimmt. Die Barrieren, die wir erkennen, bauen wir nach und nach ab. Bei Fragen wendet euch gerne vertrauensvoll an unser Orga Team (Kontaktdaten siehe unten).
-
 Unser Tagungshaus ist alt und die finanziellen Mittel knapp. Darum sind wir mit der Barrierefreiheit im Haus noch lange nicht so weit, wie wir möchten. Doch wir sind auf einem guten Weg. Wir fordern von uns selbst eine [Haltung und Perspektive](https://www.abc-huell.de/ueber-uns/#disabilitystatement), die Barrieren wahrnimmt. Die Barrieren, die wir erkennen, bauen wir nach und nach ab. Das betrifft sowohl bauliche als auch zwischenmenschliche Barrieren wie bspw. Sprache. Bei Fragen wendet euch gerne vertrauensvoll an unser Orga Team.
-
-Kontaktdaten:
-HüPC Orga Team
-email:
-telefonnummer: 
 
 ### Verhaltenskodex
 
-Wir möchten niemanden ausschließen und allen Teilgebenden einen Raum bieten, in dem sie sich wohl fühlen und sich entfalten können. Dafür verfolgen wir ein Achtsamkeitskonzept, das einen Rahmen für ein gemeinsames Miteinander bietet. Ein Teil davon ist ein [Verhaltenskodex](https://jugendpolit.camp/code-of-conduct/) bzw. Code of Conduct, das für das HüPC gilt.
+Wir möchten niemanden ausschließen und allen Teilgebenden einen Raum bieten, in dem sie sich wohl fühlen und sich entfalten können. Dafür verfolgen wir ein Achtsamkeitskonzept, das einen Rahmen für ein gemeinsames Miteinander bietet. Ein Teil davon ist ein [Verhaltenskodex](../code-of-conduct/) bzw. Code of Conduct, das für das HüPC gilt.
 
 #### Hygienekonzept
 
