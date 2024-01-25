@@ -1,7 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import CallToAction from '../components/CallToAction.astro';
 
-import Pride from '../../public/pride.webp';
+import Pride from '../../pride.webp';
 
 import * as text from '../content/pages/orga.md';
 ---
@@ -18,4 +19,5 @@ import * as text from '../content/pages/orga.md';
 				<div class="col-md-8 pt-md-5"><p set:html={text.compiledContent()}/></div>
 		</div>
 	</main>
+	<CallToAction />
 </Layout>
