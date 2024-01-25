@@ -11,7 +11,7 @@
 		</div>
 		<div class="row">
 			<div class="col title">
-				<a href="#" class="btn btn-primary row w-25">Jetzt Anmelden</a>				
+				<a href="#" class="btn btn-primary row w-75 button">Jetzt Anmelden</a>				
 			</div>
 		</div>
 	</div>
@@ -23,7 +23,7 @@ header {
 	background-size: cover;
 	background-position: top;
 	background-repeat: no-repeat;
-	height: 75vh;
+	height: 700px;
 
 	--mask:
 	radial-gradient(111.80px at 50% calc(100% - 150.00px),#000 99%,#0000 101%) calc(50% - 100px) 0/200px 100%,
@@ -63,5 +63,26 @@ header {
 			margin-top: 2rem;
 		}
 	}
+}
+
+@include media-breakpoint-up(sm) {
+	.button {
+		width: 25% !important;
+	}
+}
+
+@include media-breakpoint-up(sm) {
+	header {
+		height: 540px;
+	}
+
+	header {
+		.title {
+			h1 {
+				margin-top: 13rem;
+			}
+		}
+	}
+
 }
 </style>

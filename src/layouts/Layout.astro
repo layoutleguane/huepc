@@ -1,91 +1,107 @@
 ---
 export interface Props {
-	title: string;
+title: string;
 }
-
 const { title } = Astro.props;
+import "bootstrap/dist/css/bootstrap.min.css";
+import bootstrap from "bootstrap/dist/js/bootstrap.bundle.min.js?url";
 ---
-
 <!DOCTYPE html>
 <html lang="de">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/Alpaka-head.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
-	<body>
-		<nav class="navbar fixed-top-lg navbar-expand-lg navbar-light">
-			<div class="container">
-				<a class="navbar-brand" href="/">HüPC</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="/infos/">Organisatorisches</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/vor-ort/">Ort</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/faq/">FAQ</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/code-of-conduct/">CoC</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link bg-primary text-white rounded ms-2" href="#">Anmelden</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+<script src={bootstrap}></script>
 
-		<slot />
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width" />
+	<link rel="icon" type="image/svg+xml" href="/Alpaka-head.svg" />
+	<meta name="generator" content={Astro.generator} />
+	<title>{title}</title>
+</head>
 
-		<footer class="bg-light mt-4 py-3">
-			<div class="container">
-				Made with ❤️ in Kiel, Hamburg &amp; Mannheim
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<div class="container">
+			<a class="navbar-brand" href="/">HüPC</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="/infos/">Organisatorisches</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/vor-ort/">Ort</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/faq/">FAQ</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/code-of-conduct/">CoC</a>
+					</li>
+					<li class="nav-item sm-ms-2">
+						<a class="nav-link btn m-0 bg-primary text-white rounded button" href="#">Anmelden</a>
+					</li>
+				</ul>
 			</div>
-		</footer>
-	</body>
+		</div>
+	</nav>
+	<slot />
+	<footer class="bg-light mt-4 py-3">
+		<div class="container">
+			Made with ❤️ in Kiel, Hamburg &amp; Mannheim
+		</div>
+	</footer>
+</body>
+
 </html>
 <style is:global lang="scss">
-	@import "@fontsource/arsenal";
-	@import "@fontsource/arsenal/700";
-	@import "@fontsource/fira-sans";
-	@import "@fontsource/fira-sans/600";
+@import "@fontsource/arsenal";
+@import "@fontsource/arsenal/700";
+@import "@fontsource/fira-sans";
+@import "@fontsource/fira-sans/600";
 
-	@import "bootstrap/scss/reboot";
-	@import "bootstrap/scss/reboot";
-	@import "bootstrap/scss/type";
-	@import "bootstrap/scss/containers";
-	@import "bootstrap/scss/grid";
-	@import "bootstrap/scss/buttons";
-	@import "bootstrap/scss/nav";
-	@import "bootstrap/scss/navbar";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";
 
 
-	@import "bootstrap/scss/helpers";
-	@import "bootstrap/scss/utilities/api";
+@import "bootstrap/scss/helpers";
+@import "bootstrap/scss/utilities/api";
 
-	:root h1,h2 {
-		--bs-heading-color: #1A073B;
+:root h1,
+h2 {
+	--bs-heading-color: #1A073B;
+}
+
+h1,
+h2 {
+	font-family: "Sigmar", sans-serif;
+}
+
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Arsenal", $font-family-sans-serif;
+}
+
+.navbar {
+	background: #F8BC72;
+}
+
+.button {
+	width: 90px;
+}
+
+@include media-breakpoint-up(sm) {
+	.sm-ms-2 {
+		margin-left: 1.5rem !important;
 	}
-
-	h1, h2 {
-		font-family: "Sigmar", sans-serif;
-	}
-
-	h3, h4, h5, h6 {
-		font-family: "Arsenal", $font-family-sans-serif;
-	}
-
-	.navbar {
-		background: #F8BC72;
-	}
-
+}
 </style>

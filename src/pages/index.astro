@@ -39,14 +39,14 @@ import * as mainInfo from '../content/main-infos.md';
 
 		<section>
 			<div class="container mt-5">
-				<div class="row align-items-center">
-					<div class="col-md-7">
+				<div class="row align-items-center reverse">
+					<div class="col-md-4 mb-4">
+						<img src={HuePC22} class="mw-100 margin margin-right margin-left" alt="Eine Gruppe von Menschen sitzt unter einem Baum in Klappstühlen.">
+					</div>
+					<div class="col-md-8 pb-4">
 						<h2 class="text-primary">{introText.frontmatter.title}</h2>
 						<p set:html={introText.compiledContent()}/>
 						<a href="/infos/" class="btn btn-secondary">Alles Organisatorische</a>
-					</div>
-					<div class="col-md-4">
-						<img src={HuePC22} class="mw-100 p-md-5" alt="Eine Gruppe von Menschen sitzt unter einem Baum in Klappstühlen.">
 					</div>
 				</div>
 			</div>
@@ -54,7 +54,7 @@ import * as mainInfo from '../content/main-infos.md';
 			<div class="container my-4">
 				<div class="row align-items-center">
 					<div class="col-md-5">
-						<img src={Huell} aria-hidden="true" class="mw-100 p-md-5" alt="Zwei alte Fachwerkhäuser mit Reetdach, hinter einer Weide." />
+						<img src={Huell} aria-hidden="true" class="mw-100 margin margin-right" alt="Zwei alte Fachwerkhäuser mit Reetdach, hinter einer Weide." />
 					</div>
 					<div class="col-md-7 p-4">
 						<h2 class="text-primary">{locationText.frontmatter.title}</h2>
@@ -66,13 +66,13 @@ import * as mainInfo from '../content/main-infos.md';
 
 			<div class="container my-4">
 				<div class="row align-items-center">
-					<div class="col-md-8">
+					<div class="col-md-8 mb-4">
 						<h2 class="text-primary">{actionText.frontmatter.title}</h2>
 						<p set:html={actionText.compiledContent()}/>
 						<button class="btn btn-primary">Anmelden</button>
 					</div>
 					<div class="col-md-4">
-						<img src={Paper} class="mw-100 p-md-5" alt="Blick über die Schulter einer Person, welche auf dem Rasen liegt und auf einem Blatt Papier Notizen zum Thema 'Polarisierung' verfasst.">
+						<img src={Paper} class="mw-100 margin margin-right margin-left" alt="Blick über die Schulter einer Person, welche auf dem Rasen liegt und auf einem Blatt Papier Notizen zum Thema 'Polarisierung' verfasst.">
 					</div>
 				</div>
 			</div>
@@ -81,3 +81,24 @@ import * as mainInfo from '../content/main-infos.md';
 		<Social />
 	</main>
 </Layout>
+
+<style lang="scss">
+@include media-breakpoint-up(sm) {
+	.reverse{
+		    display: flex;
+		    flex-direction: row-reverse;
+	}
+}
+
+@include media-breakpoint-up(lg) {
+	.margin {
+		margin: 15px 0px;
+	}
+	.margin-left{
+		margin-left: 30px;
+	}
+	.margin-right{
+		margin-right: 30px;
+	}
+}
+</style>

@@ -3,26 +3,41 @@ import Insta from '../../public/icons/instagram-50.svg'
 import Masto from '../../public/icons/mastodon-64.svg'
 import YouTube from '../../public/icons/youtube-50.svg'
 ---
-
 <div class="bg-primary p-5">
 	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-md-3">
+		<div class="d-flex order justify-content-evenly">
+			<div class="">
 				<button class="btn bg-white font-weight-bold">Newsletter zum Event abbonieren</button>
 			</div>
-			<div class="col-md-2"></div>
-			<div class="col-md-3">
-				<h2 class="text-white">Dem ABC Folgen:</h2>
-			</div>
-			<div class="col-md-1">
-				<a href="https://www.instagram.com/abc_huell/" target=”_blank”><img src={Insta} alt="Icon Instagram"></a>
-			</div>
-			<div class="col-md-1">
-				<a href="https://bildung.social/@abc" target=”_blank”><img src={Masto} alt="Icon Mastodon"></a>
-			</div>
-			<div class="col-md-1">
-				<a href="https://www.youtube.com/c/abchuell" target=”_blank”><img src={YouTube} alt="Icon YouTube"></a>
+			<h2 class="text-white pt-4 margin-left md-remove-padding">Dem ABC Folgen:</h2>
+			<div class="mt-2 d-flex flex-row align-items-center">
+				<div class="m-1">
+					<a href="https://www.instagram.com/abc_huell/" target=”_blank”><img src={Insta} alt="Icon Instagram"></a>
+				</div>
+				<div class="m-1">
+					<a href="https://bildung.social/@abc" target=”_blank”><img src={Masto} alt="Icon Mastodon"></a>
+				</div>
+				<div class="m-1">
+					<a href="https://www.youtube.com/c/abchuell" target=”_blank”><img src={YouTube} alt="Icon YouTube"></a>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
+<style lang="scss">
+.order {
+	flex-direction: column;
+} 
+@include media-breakpoint-up(md) {
+	.order {
+		flex-direction: row;
+		align-items: center;
+	}
+	.margin-left{
+		margin-left: 40px;
+	}
+	.md-remove-padding {
+		padding: 0px !important;
+	}
+}
+</style>
