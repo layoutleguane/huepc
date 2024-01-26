@@ -2,11 +2,11 @@
 
 ## Update Content
 
-The text content of this website is stored in markdown files, to make it easier for non-it-people to edit.
-If you've never used Markdown before, [here is a cheat sheet](https://www.markdownguide.org/cheat-sheet/) with the most comman styling you might need.
+The content is conveniently stored in Markdown files, ensuring simplicity in the editing process. If you are new to Markdown, you can refer to this [cheat sheet](https://www.markdownguide.org/cheat-sheet/) for common styling options.
 
-To update the text of this website, you have to navigate into the *src/content* folder.
-Here you will find two folders, 'pages' and 'shorts', as well as the file main-infos.md
+### File Structure Overview
+
+To begin updating the text content, navigate to the src/content folder. Here, you'll encounter two essential subfolders and a file:
 
 ```
 /
@@ -15,15 +15,47 @@ Here you will find two folders, 'pages' and 'shorts', as well as the file main-i
 ├── src/
 │   ├── content/
 │   │   └── pages
+│   │   │     └── faq-questions
 │   │   └── shorts
 │   │   └── main-infos.md
 ```
 
-* **main-infos.md** stores what will be rendered as date (Datum), place (Ort) and price (Preis) on the landing page of this project.
-* **shorts** includes all short intro texts of the landing page
-* **pages** includes the text of all web pages. Each page has it's own document.
+* **main-infos.md:** Contains information rendered as date (Datum), place (Ort), and price (Preis) on the project's landing page.
+* **shorts:** Includes short intro texts displayed on the landing page.
+* **pages:** Stores text for all web pages, each with its dedicated document.
+
+### Updating Homepage Content
+To edit the text on the homepage, locate and modify the corresponding Markdown file within the pages and shorts folders.
+
+### Update FAQs
+
+For changes to the FAQ section, follow these steps:
+
+1. To edit the paragraph, modify the content of *content/pages/faq.md*.
+2. For individual questions and answers, navigate to *content/pages/faq-questions*. Each question has its Markdown file.
+3. If you wish to remove a question, delete the corresponding Markdown file.
 
 To edit the text on the homepage, you have to edit the responding markdown file.
+
+#### Ordering FAQs
+
+Questions are displayed alphabetically on the website. To ensure a logical order, consider numbering your questions.
+
+#### Adding a New Question
+
+To add a question, create a new Markdown file similar to existing ones. Your file should include:
+
+```example.md
+---
+title: Your Title-Question goes here
+id: onewordid
+---
+Here comes your Text.
+```
+
+* **title:** Represents the question title displayed on the website.
+* **id:** Should be a single word, unique to each question. This helps the computer open the correct element when clicked.
+
 
 ## Development 
 
