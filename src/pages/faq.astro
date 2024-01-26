@@ -1,20 +1,32 @@
 ---
 import Layout from '../layouts/Layout.astro';
-
 import * as text from '../content/pages/faq.md';
+const questions = await Astro.glob('../content/pages/faq-questions/*.md'); //import all questions
 ---
-
 <Layout title="HüllerPolitCamp">
 	<main>
 		<section class="container py-4">
 			<h1 class="text-primary">{text.frontmatter.title}</h1>
-			<p set:html={text.compiledContent()}/>
+			<p set:html={text.compiledContent()} />
+			<div class="accordion accordion-flush" id="faq">
+				{questions.map(question => <div class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={"#" + question.frontmatter.id} aria-expanded="false" aria-controls="flush-collapseOne">
+							{question.frontmatter.title}
+						</button>
+					</h2>
+					<div id={question.frontmatter.id} class="accordion-collapse collapse">
+						<div class="accordion-body">
+							<p set:html={question.compiledContent()} />
+						</div>
+					</div>
+				</div>)}
+			</div>
 		</section>
 	</main>
 </Layout>
-
 <style lang="scss">
-	.link-opacity-100-hover:hover{
-    	background-color: #F8BC72;
+	.accordion-header {
+		font-family: "Arsenal", $font-family-sans-serif;
 	}
 </style>
