@@ -5,6 +5,8 @@ title: string;
 const { title } = Astro.props;
 import "bootstrap/dist/css/bootstrap.min.css";
 import bootstrap from "bootstrap/dist/js/bootstrap.bundle.min.js?url";
+const pathname = new URL(Astro.request.url).pathname;
+const currentPath = pathname.slice(1); // remove the first "/"
 ---
 <!DOCTYPE html>
 <html lang="de">
@@ -28,16 +30,16 @@ import bootstrap from "bootstrap/dist/js/bootstrap.bundle.min.js?url";
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link" aria-current="page" href="/infos/">Organisatorisches</a>
+						<a class={currentPath === "infos" ? "nav-link active" : "nav-link"} aria-current="page" href="/infos">Organisatorisches</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/vor-ort/">Ort</a>
+						<a class={currentPath === "vor-ort" ? "nav-link active" : "nav-link"} href="/vor-ort">Ort</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/faq/">FAQ</a>
+						<a class={currentPath === "faq" ? "nav-link active" : "nav-link"} href="/faq">FAQ</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/code-of-conduct/">CoC</a>
+						<a class={currentPath === "code-of-conduct" ? "nav-link active" : "nav-link"} href="/code-of-conduct">CoC</a>
 					</li>
 					<li class="nav-item sm-ms-2">
 						<a class="nav-link btn m-0 bg-primary text-white rounded button" href="#">Anmelden</a>
