@@ -435,6 +435,11 @@
   resolved "https://registry.yarnpkg.com/@fontsource/fira-sans/-/fira-sans-4.5.10.tgz#63a6dacfa482017a840b40e9c2cfefb187a0e515"
   integrity sha512-4Edj+GA0LYSqfXOvdTwVGmCShT8Ycd8bKzdfzM302n+I6Hsg6h3gBkBeNgN19PhkcngDznZyHv3EkyrKqvMTGw==
 
+"@fontsource/sigmar@^5.0.18":
+  version "5.0.18"
+  resolved "https://registry.yarnpkg.com/@fontsource/sigmar/-/sigmar-5.0.18.tgz#f4521edc9b7a58d44b41764b8d2f9d83d6f1bd69"
+  integrity sha512-E+c+ZmGp8PTN4p54kY5/wPKQv2xolP6k4OULqBMWl5324dq+mQ1AMIeZCTL+ek6itlNvn5ZFiA/xLx+F/8ZYLg==
+
 "@jridgewell/gen-mapping@^0.3.0", "@jridgewell/gen-mapping@^0.3.2":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@jridgewell/gen-mapping/-/gen-mapping-0.3.3.tgz#7e02e6eb5df901aaedb08514203b096614024098"
