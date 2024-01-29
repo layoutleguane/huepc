@@ -6,7 +6,7 @@ subtitle: Eine Mehrgenerationen-Mitmach-Konferenz für Jugendliche und Erwachsen
 
 ## Du machst das Programm
 
-Beim HüllerPolitCamp handelt es sich um ein BarCamp, auch Un-Konferenz genannt. Denn im Gegensatz zu einer Konferenz gibt es kein festes Programm und keine eingeladenen Expert*/innen. Die Teilnehmenden entscheiden gemeinsam, über was sie sprechen möchten und planen von Tag zu Tag das Programm. Deshalb sprechen wir häufig auch von Teilgebenden, weil alle Teilnehmenden zum Programm des HüPC beitragen.
+Beim HüllerPolitCamp handelt es sich um ein BarCamp, auch Un-Konferenz genannt. Denn im Gegensatz zu einer Konferenz gibt es kein festes Programm und keine eingeladenen Expert\*innen. Die Teilnehmenden entscheiden gemeinsam, über was sie sprechen möchten und planen von Tag zu Tag das Programm. Deshalb sprechen wir häufig auch von Teilgebenden, weil alle Teilnehmenden zum Programm des HüPC beitragen.
 
 Beim HüPC dreht sich alles um Politik und Gesellschaft. Ihr möchtet über eure politischen Ziele, Forderungen oder Ansichten sprechen? Ihr habt den Wunsch, politische und gesellschaftliche Entwicklungen besser zu verstehen? Ihr sucht Menschen, mit denen ihr euch für oder gegen eine Sache zusammentun könnt? Ihr sucht Austausch auf Augenhöhe? Dann seid ihr richtig beim HüPC. Ihr bestimmt, über was gesprochen wird, in welche Sessions und Diskussionen ihr euch einbringt und in welche nicht.
 

@@ -3,7 +3,6 @@ title: Kann ich vor Ort einkaufen?
 id: einkauf
 ---
 
-Die schnelle Antwort ist nein.\
-Genaugenommen gibt es einen kleinen Dorf-Edeka 15-20 Minuten zu Fuß entfernt. Mit einem Auto kann man auch 12 Minuten nach Drochtersen in einen REWE fahren.\
-Snacks auf die du nicht verzichten kannst, solltest du daher selber dabei haben. Aber keine Angst, vor Ort kann man Snack und Getränke zu sehr fairen Preisen kaufen.
-Dafür bitte Bargeld mitnehnem.
+Es gibt einen kleinen Edeka, den man innerhalb von 15-20 Fußminuten erreichen kann. Mit dem Auto kann man auch ca. 12 Minuten nach Drochtersen zum nächsten REWE fahren.\
+Snacks, auf die Du nicht verzichten kannst, solltest Du daher selbst mitbringen. Aber keine Sorge: im Tagungszentrum kann man Knabbereien und Getränke zu fairen Preisen kaufen.
+Dafür bitte Bargeld mitnehmen.
