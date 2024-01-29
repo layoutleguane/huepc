@@ -1,8 +1,10 @@
 ---
-
+import NavBar from '../components/NavBar.astro';
 ---
 
 <header class="mb-4">
+	<NavBar />
+
 	<div class="container">
 		<div class="row">
 			<div class="col title">
@@ -19,9 +21,9 @@
 
 <style lang="scss">
 header {
-	background: url(/hero.webp);
+	background: url(/hero.png), $hero-navbar-gradient;
 	background-size: cover;
-	background-position: top;
+	background-position: top -10px;
 	background-repeat: no-repeat;
 	height: 700px;
 

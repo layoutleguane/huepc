@@ -1,0 +1,44 @@
+---
+const pathname = new URL(Astro.request.url).pathname;
+const currentPath = pathname.slice(1); // remove the first "/"
+
+const { showbg } = Astro.props;
+---
+
+<nav class:list={['navbar', 'navbar-expand-lg', 'navbar-light', showbg ? 'navbar-bg' : null]}>
+	<div class="container">
+		<a class="navbar-brand" href="/">HüPC</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav d-flex flex-grow-1">
+ 				<li class="nav-item">
+					<a class={currentPath === "infos" ? "nav-link active" : "nav-link"} aria-current="page" href="/infos">Organisatorisches</a>
+				</li>
+				<li class="nav-item">
+					<a class={currentPath === "vor-ort" ? "nav-link active" : "nav-link"} href="/vor-ort">Ort</a>
+				</li>
+				<li class="nav-item">
+					<a class={currentPath === "faq" ? "nav-link active" : "nav-link"} href="/faq">FAQ</a>
+				</li>
+				<li class="nav-item flex-grow-1">
+					<a class={currentPath === "code-of-conduct" ? "nav-link active" : "nav-link"} href="/code-of-conduct">CoC</a>
+				</li>
+				<li class="nav-item sm-ms-2">
+					<a class="nav-link btn m-0 bg-primary text-white rounded button" href="#">Anmelden</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<style is:global lang="scss">
+.navbar {
+//	.navbar-brand {}
+}
+
+.navbar-bg {
+	background: $hero-navbar-gradient;
+}
+</style>
