@@ -14,9 +14,9 @@ To begin updating the text content, navigate to the src/content folder. Here, yo
 │   └── pictures
 ├── src/
 │   ├── content/
-│   │   └── pages
+│   │   ├── pages
 │   │   │     └── faq-questions
-│   │   └── shorts
+│   │   ├── shorts
 │   │   └── main-infos.md
 ```
 
