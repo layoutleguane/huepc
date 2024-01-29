@@ -1,8 +1,8 @@
 ---
+import { Image } from 'astro:assets';
+
 import Layout from '../layouts/Layout.astro';
 import CallToAction from '../components/CallToAction.astro';
-
-import ABC from '../../public/abc-seite.webp';
 
 import * as text from '../content/pages/abc.md';
 ---
@@ -14,7 +14,7 @@ import * as text from '../content/pages/abc.md';
 			<p class="fst-italic">{text.frontmatter.subtitle}</p>
 			<div class="row">
 				<div class="col-md-4">
-					<img src={ABC} class="mw-100 p-md-5">
+					<img src="abc-seite.webp" class="mw-100 p-md-5">
 				</div>
 				<div class="col-md-8 pt-md-5"><p set:html={text.compiledContent()}/></div>
 			</div>

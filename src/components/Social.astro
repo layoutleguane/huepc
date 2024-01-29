@@ -1,7 +1,6 @@
 ---
-import Insta from '../../public/icons/instagram-50.svg'
-import Masto from '../../public/icons/mastodon-64.svg'
-import YouTube from '../../public/icons/youtube-50.svg'
+import { Image } from 'astro:assets';
+
 ---
 <div class="bg-primary p-5">
 	<div class="container">
@@ -12,13 +11,13 @@ import YouTube from '../../public/icons/youtube-50.svg'
 			<h2 class="text-white pt-4 margin-left md-remove-padding">Dem ABC Folgen:</h2>
 			<div class="mt-2 d-flex flex-row align-items-center">
 				<div class="m-1">
-					<a href="https://www.instagram.com/abc_huell/" target=”_blank”><img src={Insta} alt="Icon Instagram"></a>
+					<a href="https://www.instagram.com/abc_huell/" target=”_blank”><img src="/icons/instagram-50.svg" alt="Icon Instagram"></a>
 				</div>
 				<div class="m-1">
-					<a href="https://bildung.social/@abc" target=”_blank”><img src={Masto} alt="Icon Mastodon"></a>
+					<a href="https://bildung.social/@abc" target=”_blank”><img src="/icons/mastodon-64.svg" alt="Icon Mastodon"></a>
 				</div>
 				<div class="m-1">
-					<a href="https://www.youtube.com/c/abchuell" target=”_blank”><img src={YouTube} alt="Icon YouTube"></a>
+					<a href="https://www.youtube.com/c/abchuell" target=”_blank”><img src="/icons/youtube-50.svg" alt="Icon YouTube"></a>
 				</div>
 			</div>
 		</div>

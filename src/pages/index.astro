@@ -1,13 +1,11 @@
 ---
+import { Image } from 'astro:assets';
+
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Hero from '../components/Hero.astro';
 import Quiz from '../components/Quiz.astro';
 import Social from '../components/Social.astro';
-
-import HuePC22 from '../../public/huepc22.webp';
-import Huell from '../../public/huell.webp';
-import Paper from '../../public/paper.webp';
 
 import * as introText from '../content/shorts/01-intro.md';
 import * as locationText from '../content/shorts/02-location.md';
@@ -41,7 +39,7 @@ import * as mainInfo from '../content/main-infos.md';
 			<div class="container mt-5">
 				<div class="row align-items-center reverse">
 					<div class="col-md-4 mb-4">
-						<img src={HuePC22} class="mw-100 margin margin-right margin-left" alt="Eine Gruppe von Menschen sitzt unter einem Baum in Klappstühlen.">
+						<img src="huepc22.webp" class="mw-100 margin margin-right margin-left" alt="Eine Gruppe von Menschen sitzt unter einem Baum in Klappstühlen.">
 					</div>
 					<div class="col-md-8 pb-4">
 						<h2 class="text-primary">{introText.frontmatter.title}</h2>
@@ -54,7 +52,7 @@ import * as mainInfo from '../content/main-infos.md';
 			<div class="container my-4">
 				<div class="row align-items-center">
 					<div class="col-md-5">
-						<img src={Huell} aria-hidden="true" class="mw-100 margin margin-right" alt="Zwei alte Fachwerkhäuser mit Reetdach, hinter einer Weide." />
+						<img src="huell.webp" aria-hidden="true" class="mw-100 margin margin-right" alt="Zwei alte Fachwerkhäuser mit Reetdach, hinter einer Weide." />
 					</div>
 					<div class="col-md-7 p-4">
 						<h2 class="text-primary">{locationText.frontmatter.title}</h2>
@@ -72,7 +70,7 @@ import * as mainInfo from '../content/main-infos.md';
 						<button class="btn btn-primary">Anmelden</button>
 					</div>
 					<div class="col-md-4">
-						<img src={Paper} class="mw-100 margin margin-right margin-left" alt="Blick über die Schulter einer Person, welche auf dem Rasen liegt und auf einem Blatt Papier Notizen zum Thema 'Polarisierung' verfasst.">
+						<img src="paper.webp" class="mw-100 margin margin-right margin-left" alt="Blick über die Schulter einer Person, welche auf dem Rasen liegt und auf einem Blatt Papier Notizen zum Thema 'Polarisierung' verfasst.">
 					</div>
 				</div>
 			</div>
