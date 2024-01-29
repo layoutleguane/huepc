@@ -9,7 +9,7 @@ import * as text from '../content/pages/code-of-conduct.md';
 		<section class="container py-4">
 			<h1 class="text-primary">{text.frontmatter.title}</h1>
 			<p class="fst-italic">{text.frontmatter.subtitle}</p>
-			<p set:html={text.compiledContent()}/>
+			<div set:html={text.compiledContent()}/>
 		</section>
 	</main>
 </Layout>

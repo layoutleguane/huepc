@@ -7,7 +7,7 @@ const questions = await Astro.glob('../content/pages/faq-questions/*.md'); //imp
 	<main>
 		<section class="container py-4">
 			<h1 class="text-primary">{text.frontmatter.title}</h1>
-			<p set:html={text.compiledContent()} />
+			<div set:html={text.compiledContent()} />
 			<div class="accordion accordion-flush" id="faq">
 				{questions.map(question => <div class="accordion-item">
 					<h2 class="accordion-header">
@@ -17,7 +17,7 @@ const questions = await Astro.glob('../content/pages/faq-questions/*.md'); //imp
 					</h2>
 					<div id={question.frontmatter.id} class="accordion-collapse collapse">
 						<div class="accordion-body">
-							<p set:html={question.compiledContent()} />
+							<div set:html={question.compiledContent()} />
 						</div>
 					</div>
 				</div>)}

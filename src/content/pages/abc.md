@@ -1,9 +1,8 @@
 ---
 title: Das ABC Tagungs- und Bildungszentrum
-subtitle: Begegnunsstätte auf der politischen Bildungslandschaft
+subtitle: Begegnungsstätte auf der politischen Bildungslandschaft
 ---
 ## An- und Abreise
-
 Dieses Jahr bieten wir zwei Anreise- und Abreisemöglichkeiten an.\
 Bitte gebe bei der Anmeldung im Anmeldeformular deine Präferenz an um eine bessere Planung zu ermöglichen.
 
