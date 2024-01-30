@@ -4,6 +4,8 @@ import { Image } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
 import CallToAction from '../components/CallToAction.astro';
 
+import pride from '../images/pride.webp';
+
 import * as text from '../content/pages/orga.md';
 ---
 
@@ -14,7 +16,7 @@ import * as text from '../content/pages/orga.md';
 			<p class="fst-italic">{text.frontmatter.subtitle}</p>
 			<div class="row">
 				<div class="col-md-4">
-					<img src="/pride.webp" class="mw-100 p-md-5">
+					<Image src={pride} class="w-100 h-100 p-md-5" alt="Eine Trans Pride Flagge hängt aus einem Fenster.">
 				</div>
 				<div class="col-md-8 pt-md-5"><p set:html={text.compiledContent()}/></div>
 		</div>
