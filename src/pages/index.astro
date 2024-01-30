@@ -7,13 +7,15 @@ import Hero from '../components/Hero.astro';
 import Quiz from '../components/Quiz.astro';
 import Social from '../components/Social.astro';
 
+import huepc from '../images/huepc22.webp';
+import huell from '../images/huell.webp';
+import paper from '../images/paper.webp';
+
 import * as introText from '../content/shorts/01-intro.md';
 import * as locationText from '../content/shorts/02-location.md';
 import * as actionText from '../content/shorts/03-call-to-action.md';
-
 import * as mainInfo from '../content/main-infos.md';
 ---
-
 <NoNavBar title="HüllerPolitCamp">
 	<main>
 		<Hero />
@@ -39,52 +41,47 @@ import * as mainInfo from '../content/main-infos.md';
 				</div>
 			</div>
 		</section>
-
 		<section>
 			<div class="container mt-5">
 				<div class="row align-items-center reverse">
 					<div class="col-md-4 mb-4">
-						<img src="huepc22.webp" class="mw-100 margin margin-right margin-left" alt="Eine Gruppe von Menschen sitzt unter einem Baum in Klappstühlen.">
+						<Image src={huepc} class="w-100 h-100 margin margin-right margin-left object-fit" width="700px" height="467px" alt="Eine Gruppe von Menschen sitzt unter einem Baum in Klappstühlen." />
 					</div>
 					<div class="col-md-8 pb-4">
 						<h2 class="text-primary">{introText.frontmatter.title}</h2>
-						<p set:html={introText.compiledContent()}/>
+						<p set:html={introText.compiledContent()} />
 						<a href="/infos/" class="btn btn-secondary">Alles Organisatorische</a>
 					</div>
 				</div>
 			</div>
-
 			<div class="container my-4">
 				<div class="row align-items-center">
 					<div class="col-md-5">
-						<img src="huell.webp" aria-hidden="true" class="mw-100 margin margin-right" alt="Zwei alte Fachwerkhäuser mit Reetdach, hinter einer Weide." />
+						<Image src={huell} aria-hidden="true" class="w-100 h-100 margin margin-right" alt="Zwei alte Fachwerkhäuser mit Reetdach, hinter einer Weide." />
 					</div>
 					<div class="col-md-7 p-4">
 						<h2 class="text-primary">{locationText.frontmatter.title}</h2>
-						<p set:html={locationText.compiledContent()}/>
+						<p set:html={locationText.compiledContent()} />
 						<a href="/vor-ort/" class="btn btn-secondary">Alles zur Unterbringung und Anreise</a>
 					</div>
 				</div>
 			</div>
-
 			<div class="container my-4">
 				<div class="row align-items-center">
 					<div class="col-md-8 mb-4">
 						<h2 class="text-primary">{actionText.frontmatter.title}</h2>
-						<p set:html={actionText.compiledContent()}/>
+						<p set:html={actionText.compiledContent()} />
 						<button class="btn btn-primary">Anmelden</button>
 					</div>
 					<div class="col-md-4">
-						<img src="paper.webp" class="mw-100 margin margin-right margin-left" alt="Blick über die Schulter einer Person, welche auf dem Rasen liegt und auf einem Blatt Papier Notizen zum Thema 'Polarisierung' verfasst.">
+						<Image src={paper} class="w-100 h-100 margin margin-right margin-left" alt="Blick über die Schulter einer Person, welche auf dem Rasen liegt und auf einem Blatt Papier Notizen zum Thema 'Polarisierung' verfasst." />
 					</div>
 				</div>
 			</div>
 		</section>
-
 		<Social />
 	</main>
 </Layout>
-
 <style lang="scss">
 .tagline {
 	font-family: "Arsenal", "Fira Sans", sans-serif;
@@ -100,9 +97,9 @@ import * as mainInfo from '../content/main-infos.md';
 }
 
 @include media-breakpoint-up(sm) {
-	.reverse{
-		    display: flex;
-		    flex-direction: row-reverse;
+	.reverse {
+		display: flex;
+		flex-direction: row-reverse;
 	}
 }
 
@@ -110,10 +107,12 @@ import * as mainInfo from '../content/main-infos.md';
 	.margin {
 		margin: 15px 0px;
 	}
-	.margin-left{
+
+	.margin-left {
 		margin-left: 30px;
 	}
-	.margin-right{
+
+	.margin-right {
 		margin-right: 30px;
 	}
 }
