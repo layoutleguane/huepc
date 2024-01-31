@@ -13,7 +13,7 @@ These steps has to be done only once in the beginning.
 
 ### Finding the File to Edit
 
-Above this readme, you'll find various files and folders that compose the website. Clicking on a folder opens it, and clicking on a file opens it in the web-view. The text content is stored in Markdown files, and if you're new to Markdown, refer to the [cheat sheet](https://www.markdownguide.org/cheat-sheet/) for styling options.
+Above this readme, you'll find various files and folders that compose the website. Clicking on a folder opens it, and click!ing on a file opens it in the web-view. The text content is stored in Markdown files, and if you're new to Markdown, refer to the [cheat sheet](https://www.markdownguide.org/cheat-sheet/) for styling options.
 The files you are looking for have the ending ".md", for markdown.
 
 ### File Structure Overview
@@ -72,25 +72,25 @@ Now that you have found the markdown file, you can open and edit it.
 1. Open the desired Markdown file by clicking on it.
 1. Edit the file by clicking the pen icon in the top right corner.
 
-![screenshot: highlighting the eddit button](assets/images/readme/markdown-edit.png)
+![screenshot: highlighting the eddit button](src/images/readme/markdown-edit.png)
 
 Now you can edit the text you want to edit, simular to any other document.
 
 Preview your changes by clicking the preview button. The styling will be differen on the website itself, but this way, you can check if your makrdown syntax work.
 
-![screenshot: highlighting the preview button](assets/images/readme/markdown-edit-doc.png)
+![screenshot: highlighting the preview button](src/images/readme/markdown-edit-doc.png)
 
 ## Save Your Changes
 
 1. Save changes by clicking "Commit Changes" in the top right.
 
-![screenshot: highlighting the save button](assets/images/readme/markdown-save-button.png)
+![screenshot: highlighting the save button](src/images/readme/markdown-save-button.png)
 
 2. In the popup, ensure everything is prefilled, add a description if needed (B), and select "Commit directly to the main branch."
 
 3. Hit the button "Commit Changes" (A)
 
-![screenshot: highlighting the commit changes button](assets/images/readme/commit-message.png)
+![screenshot: highlighting the commit changes button](src/images/readme/commit-message.png)
 
 If you make a mistake, your changes aren't saved until you press "Commit Changes."
 
@@ -101,9 +101,9 @@ This will take some time. On the site you can read this text, you can see a litt
     Golden Circle: Changes detected, site rebuilding.
     Blue Arrow: Site up and running, changes implemented.
     Red Circle: Last change caused an error; check the document or contact administrators.
-    
 
-![screenshot: highlighting the build status](assets/images/readme/status.png)
+
+![screenshot: highlighting the build status](src/images/readme/status.png)
 
 Within 1-3 minutes, your changes should be visible. Reload or clear your browser cache if needed.
 
