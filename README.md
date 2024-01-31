@@ -94,7 +94,7 @@ Preview your changes by clicking the preview button. The styling will be differe
 
 If you make a mistake, your changes aren't saved until you press "Commit Changes."
 
-## Check Your Yhanges on the Website
+## Check Your Changes on the Website
 After committing changes, the website rebuilds automatically.
 This will take some time. On the site you can read this text, you can see a little dot or arrow on the top, Indicating the current state of the build process. You might have to reload this site to see the changes.
 
