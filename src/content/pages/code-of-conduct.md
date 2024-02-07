@@ -1,10 +1,10 @@
 ---
-title: Code of Conduct
+title: Verhaltenskodex (Code of Conduct)
 subtitle: Der Verhaltenskodex des HüllerPolitCamps 
 ---
-## Warum gibt es einen Code of Conduct?
+## Warum gibt es einen Code of Conduct (CoC)?
 
-Auf dem HpllerPolitCamp verbringen wir in einer Gruppe eine längere Zeit zusammen. Dabei treffen sich viele Menschen, die sich vorher nicht kannten. Wir sind alle unterschiedliche Menschen und haben andere Erfahrungen. Damit wir alle ein schönes Camp haben und uns dabei gut fühlen, gibt es Regeln für den Umgang miteinander. Diese Regeln beschreiben, was wir uns von dir für ein Verhalten wünschen: Erwünschtes Verhalten. Diese Regeln beschreiben auch, welches Verhalten auf unserer Veranstaltung unerwünscht ist: Unerwünschtes Verhalten.
+Auf dem HüllerPolitCamp verbringen wir in einer Gruppe eine längere Zeit zusammen. Dabei treffen sich viele Menschen, die sich vorher nicht kannten. Wir sind alle unterschiedliche Menschen und haben andere Erfahrungen. Damit wir alle ein schönes Camp haben und uns dabei gut fühlen, gibt es Regeln für den Umgang miteinander. Diese Regeln beschreiben, was wir uns von dir für ein Verhalten wünschen: Erwünschtes Verhalten. Diese Regeln beschreiben auch, welches Verhalten auf unserer Veranstaltung unerwünscht ist: Unerwünschtes Verhalten.
 
 ### Erwünschtes Verhalten:
 
@@ -24,10 +24,10 @@ Wir möchten nicht, dass du:
 * Menschen belästigst und ihre Grenzen überschreitest.
 * Andere beleidigst oder diskriminierst.
 * abwertende Kommentare über Eigenschaften von anderen Menschen äußerst. Dazu gehören ihre Religion, Aussehen, Herkunft, Geschlecht, Sexualität, Behinderungen, Essverhalten.
-* andere einschüchterst oder oft unterbrichst, so dass sie selbst nicht viel sagen können.
-* andere Menschen stalkst oder sie ungefragt berührst.
+* Andere einschüchterst oder oft unterbrichst, so dass sie selbst nicht viel sagen können.
+* Andere Menschen stalkst oder sie ungefragt berührst.
 * Menschen fotografierst, ohne vorher zu fragen, oder Fotos ohne Nachfragen veröffentlichst, zum Beispiel im Internet. Fotografiere keine Menschen mit rotem Band und hilf den anderen, auch daran zu denken.
-* so kompliziert sprichst, dass andere dich nicht verstehen können. Versuche einfach zu sprechen und möglichst niemanden auszuschließen.
+* So kompliziert sprichst, dass andere dich nicht verstehen können. Versuche einfach zu sprechen und möglichst niemanden auszuschließen.
 
 ### Wie wir mit unerwünschtem Verhalten umgehen:
 
@@ -41,4 +41,4 @@ Wenn du Fragen zu unserem Verhaltens-Kodex hast oder etwas nicht verstehst, spri
 
 ### Das Hausrecht des ABCs
 
-Wir behalten sich vor, von unserem Hausrecht Gebrauch zu machen und Personen, die rechtsextremen Parteien oder Organisationen angehören, der rechtsextremen Szene zuzuordnen sind oder bereits in der Vergangenheit durch rassistische, nationalistische, antisemitische oder sonstige menschenverachtende Äußerungen in Erscheinung getreten sind, den Zutritt zur Veranstaltung zu verwehren oder von dieser auszuschließen.
+Wir behalten sich vor, von unserem Hausrecht Gebrauch zu machen und Personen, die rechtsextremen Parteien oder Organisationen angehören, der rechtsextremen Szene zuzuordnen sind oder bereits in der Vergangenheit durch rassistische, nationalistische, antisemitische, queerfeindliche oder sonstige menschenverachtende Äußerungen in Erscheinung getreten sind, den Zutritt zur Veranstaltung zu verwehren oder von dieser auszuschließen.
