@@ -4,24 +4,24 @@ subtitle: Begegnungsstätte auf der politischen Bildungslandschaft
 ---
 ## An- und Abreise
 Dieses Jahr bieten wir zwei Anreise- und Abreisemöglichkeiten an.\
-Bitte gib bei der Anmeldung im Anmeldeformular deine Präferenz an, um eine bessere Planung zu ermöglichen.
+Bitte gib bei der Anmeldung im Anmeldeformular Deine Präferenz an, um eine bessere Planung zu ermöglichen.
 
 ### Anreise
 Am Freitag haben wir zwei offizielle Start-Zeiten.\
 Wir beginnen am frühen Nachmittag gemeinsam mit einem Einstieg in das Motto des Events: "Zwischen Krise und Hoffnung".
 Für Menschen mit längerer Anreise oder festen Arbeitszeiten, bieten wir eine zweite Anreisemöglichkeit am Abend an.
 
-Wenn du per Auto oder Fahrrad anreist, kannst du direkt vor Ort im Hof parken. Die Adresse für dein Navi lautet:\
+Wenn Du per Auto oder Fahrrad anreist, kannst Du direkt vor Ort im Hof parken. Die Adresse für Dein Navi lautet:\
 *Bauernreihe 1, 21706 Drochtersen.*
 
-Kommst du per ÖPNV, holen wird dich per Shuttlebus mit anderen Teilnehmenden vom Bahnhof "Himmelpforten" im HVV Gesamtbereich ab.
+Kommst Du per ÖPNV, holen wird Dich per Shuttlebus mit anderen Teilnehmenden vom Bahnhof "Himmelpforten" im HVV Gesamtbereich ab.
 
 #### Anreise am Mittag
 Der Shuttlebus am Mittag fährt **13:30 Uhr vom Bahnhof Himmelpforten** in Richtung Hüll.\
 Begonnen wird im **ABC um 14:00 Uhr**.
 
 #### Shuttlebus am Abend
-Der Shuttlebus am Abend fährt **17:30 Uhr vom Bahnhof Himmelpforten (HVV Gesamtbereich)** in Richtung Hüll.\
+Der Shuttlebus am Abend fährt **17:30 Uhr vom Bahnhof Himmelpforten** in Richtung Hüll.\
 Begonnen wird im **ABC um 18:00 Uhr**.
 
 ### Abreise
@@ -30,10 +30,10 @@ So können wir den Abend entspannt gemeinsam ausklingen lassen.
 
 #### Abreise am Sonntag Abend
 Das Event **endet offiziell um 17:00 Uhr.**
-Der Shuttlebus bringt euch um **17:30 Uhr** pünktlich zum 18:00 Uhr Zug nach Himmelpforten.
+Der Shuttlebus bringt Dich um **17:30 Uhr** pünktlich nach Himmelpforten, sodass du den Zug um 17:51 Uhr nach Hamburg erreichst.
 
 #### Abreise am Montag Morgen
-Nach einem gemeinsamen Frühstück, bringt euch der Shuttlebus um **10:30 Uhr** pünktlich zum 11:00 Uhr Zug nach Himmelpforten.
+Nach einem gemeinsamen Frühstück bringt Dich der Shuttlebus um **10:30 Uhr** pünktlich nach Himmelpforten, wo der Zug nach Hamburg um 10:51 Uhr fährt.
 
 ## Veranstaltungsort
 
@@ -45,8 +45,8 @@ Das Gelände verfügt über Outdoorflächen und ein gemütliches Kaminzimmer, we
 
 ## Unterbringung und Verpflegung
 
-Im Fachwerk-Haupthaus, dem anliegenden ehemaligen Stall und unserem Neubau befinden sich 27 Zimmer mit insgesamt 84 Betten. Es gibt bisher zwei barrierefreie Zimmer (eines mit zwei Einzelbetten, eines mit einem Doppelbett). Am Ausbau der Barrierefreiheit arbeiten wir. [siehe dazu auch das Disability Statement des ABC](https://www.abc-huell.de/ueber-uns/#disabilitystatement)\
+Im Fachwerk-Haupthaus, dem anliegenden ehemaligen Stall und unserem Neubau befinden sich 27 Zimmer mit insgesamt 84 Betten. Es gibt bisher zwei barrierefreie Zimmer (eines mit zwei Einzelbetten, eines mit einem Doppelbett). Am Ausbau der Barrierefreiheit arbeiten wir. [Siehe dazu auch das Disability Statement des ABC](https://www.abc-huell.de/ueber-uns/#disabilitystatement)\
 Einige Zimmer haben ein eigenes Bad, andere ein Gemeinschaftsbad. Wünsche für eine gemeinsame Unterbringung in einem Zimmer werden bei der Anmeldung abgefragt.
 
 Da vor Ort frisch gekocht wird, kann auf Allergien und Besonderheiten rücksicht genommen werden. Wir legen großen Wert auf eine gesunde, vitaminreiche und abwechslungsreiche Verpflegung. Vegetarisches, veganes und schweinefleischfreies Essen sind für uns keine Fremdwörter, sondern die Regel.
-Bitte gib deine Präferenzen, Besonderheiten und Unverträglichkeiten bei der Anmeldung an. Dort wird auch deine allgemeine Essenspräferenz abgefragt.
+Bitte gib Deine Präferenzen, Besonderheiten und Unverträglichkeiten bei der Anmeldung an. Dort wird auch Deine allgemeine Essenspräferenz abgefragt.
