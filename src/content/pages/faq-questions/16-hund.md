@@ -3,4 +3,4 @@ title: Kann ich meinen Hund mitbringen?
 id: hund
 ---
 
-Hunde sind auf dem Gelände erlaubt? nicht erlaubt? Bei der Anmeldung angeben?
+Grundsätzlich kannst du deinen Hund mitbringen. Für die zusätzlichen Reinigungskosten müssen wir allerdings einen Betrag von 50€ nehmen. Assistenzhunde sind davon ausgenommen und können immer kostenlos mitgenommen werden.
