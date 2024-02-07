@@ -1,5 +1,5 @@
 ---
-title: Wie hoch ist ein empfolener Spendenbetrag?
+title: Wie hoch ist der empfohlene Spendenbetrag?
 id: beitrag
 ---
 
