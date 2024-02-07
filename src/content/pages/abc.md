@@ -1,6 +1,6 @@
 ---
 title: Das ABC Tagungs- und Bildungszentrum
-subtitle: Begegnungsstätte auf der politischen Bildungslandschaft
+subtitle: 
 ---
 ## An- und Abreise
 Dieses Jahr bieten wir zwei Anreise- und Abreisemöglichkeiten an.\
