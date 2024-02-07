@@ -29,10 +29,10 @@ jobs:
       - name: Deploy files via SFTP
         uses: pressidium/lftp-mirror-action@v1
         with:
-          host: sftp.fnoco.eu
-          user: huepc
+          host: ${{ secrets.SFTP_HOST }}
+          user: ${{ secrets.SFTP_USER }}
           pass: ${{ secrets.SFTP_PASSWORD }}
 
           settings: 'sftp:auto-confirm=yes'
           localDir: 'dist'
-          remoteDir: '/httpdocs'
+          remoteDir: '/'
