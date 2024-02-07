@@ -23,7 +23,7 @@ Wir möchten nicht, dass du:
 
 * Menschen belästigst und ihre Grenzen überschreitest.
 * Andere beleidigst oder diskriminierst.
-* abwertende Kommentare über Eigenschaften von anderen Menschen äußerst. Dazu gehören ihre Religion, Aussehen, Herkunft, Geschlecht, Sexualität, Behinderungen, Essverhalten.
+* Abwertende Kommentare über Eigenschaften von anderen Menschen äußerst. Dazu gehören ihre Religion, Aussehen, Herkunft, Geschlecht, Sexualität, Behinderungen, Essverhalten.
 * Andere einschüchterst oder oft unterbrichst, so dass sie selbst nicht viel sagen können.
 * Andere Menschen stalkst oder sie ungefragt berührst.
 * Menschen fotografierst, ohne vorher zu fragen, oder Fotos ohne Nachfragen veröffentlichst, zum Beispiel im Internet. Fotografiere keine Menschen mit rotem Band und hilf den anderen, auch daran zu denken.
