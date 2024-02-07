@@ -1,6 +1,6 @@
 ---
 title: Hüller PolitCamp
-subtitle: Eine Mehrgenerationen-Mitmach-Konferenz für Jugendliche und Erwachsene
+subtitle: Ein BarCamp über Politik und Gesellschaft für Alle
 ---
 
 
@@ -16,7 +16,7 @@ Täglich wird ein sogenannter “Sessionplan” für den Tag erstellt. Eine Sess
 
 ## Teilnahmebeitrag
 
-Das HüPC kostet Geld, wir wollen aber niemanden ausschließen. Projektfördergelder machen es möglich, dass wir diese **Veranstaltung auf Spendenbasis** bzw. ohne Teilnahmebeitrag anbieten können. Deswegen gibt es keinen festen “Ticketpreis” für das HüPC. Wenn eine Spende für das ABC Bildungs- und Tagungszentrum für dich möglich ist, gib nach Selbsteinschätzung einen selbst gewählten Betrag an. Jeder Euro hilft, den Erhalt des ABC auch nach der Corona-Krise sicherzustellen. Wenn du dir eine Spende gerade nicht leisten kannst, kannst du aber auch kostenlos teilnehmen. Weil wir möglichst vielen Menschen die Online-Bezahlung ermöglichen wollen, haben wir neben Überweisungen auch Paypal als Zahlungsmöglichkeit. Wir freuen uns aber, wenn es für dich möglich ist, eine reguläre Überweisung zu machen. Dann geht das Geld komplett an uns und nicht an den Zahlungsdienst.
+Das HüPC kostet Geld, wir wollen aber niemanden ausschließen. Projektfördergelder machen es möglich, dass wir diese **Veranstaltung auf Spendenbasis** bzw. ohne Teilnahmebeitrag anbieten können. Deswegen gibt es keinen festen “Ticketpreis” für das HüPC. Wenn eine Spende für das ABC Bildungs- und Tagungszentrum für dich möglich ist, gib nach Selbsteinschätzung einen selbst gewählten Betrag an. Jeder Euro hilft. Wenn du dir eine Spende gerade nicht leisten kannst, kannst du aber auch kostenlos teilnehmen. Weil wir möglichst vielen Menschen die Online-Bezahlung ermöglichen wollen, haben wir neben Überweisungen auch Paypal als Zahlungsmöglichkeit. Wir freuen uns aber, wenn es für dich möglich ist, eine reguläre Überweisung zu machen. Dann geht das Geld komplett an uns und nicht an den Zahlungsdienst.
 
 Die Teilnahme beim HüPC beinhaltet **Übernachtung in Mehrbettzimmern sowie Vollverpflegung** (drei Mahlzeiten sowie Kaffee und Kuchen). Wir verfügen über eine sehr begrenzte Anzahl an Einzelzimmern. Falls du unbedingt ein Einzelzimmer haben möchtest, gib das bitte unter “Zimmerwünsche” an. Wir bitten für Einzelzimmer um einen Teilnahmebeitrag ab 50€ (im Formular anpassbar).
 
@@ -28,7 +28,7 @@ Das HüPC soll ein Ort sein, an dem sich alle Menschen so wohl und sicher fühle
 
 ### Barrierearmut
 
-Unser Tagungshaus ist alt und die finanziellen Mittel knapp. Darum sind wir mit der Barrierefreiheit im Haus noch lange nicht so weit, wie wir möchten. Doch wir sind auf einem guten Weg. Wir fordern von uns selbst eine [Haltung und Perspektive](https://www.abc-huell.de/ueber-uns/#disabilitystatement), die Barrieren wahrnimmt. Die Barrieren, die wir erkennen, bauen wir nach und nach ab. Das betrifft sowohl bauliche als auch zwischenmenschliche Barrieren wie bspw. Sprache. Bei Fragen wendet euch gerne vertrauensvoll an unser Orga Team.
+Obwohl wir mit der Barrierefreiheit noch nicht so weit sind, wie wir möchten, sind wir auf einem guten Weg. So sind alle Seminarräume ebenerdig, ebenso wie zwei Zimmer inkl. Bad. Wir fordern von uns selbst eine [Haltung und Perspektive](https://www.abc-huell.de/ueber-uns/#disabilitystatement), die Barrieren wahrnimmt. Die Barrieren, die wir erkennen, bauen wir nach und nach ab. Das betrifft sowohl bauliche als auch zwischenmenschliche Barrieren wie bspw. Sprache. Bei Fragen wendet euch gerne vertrauensvoll an unser Orga Team.
 
 ### Verhaltenskodex
 
@@ -36,4 +36,4 @@ Wir möchten niemanden ausschließen und allen Teilgebenden einen Raum bieten, i
 
 #### Hygienekonzept
 
-Wir nehmen das Corona-Infektionsrisiko sehr ernst. Daher bitten wir euch, einen **COVID-19-Selbst-/Schnelltest durchzuführen, bevor ihr zum HüPC anreist**. Wir möchten allen Teilgebenden einen möglichst sicheren Raum geben. Bei Erkältungs- oder Corona-Symptomen bitten wir euch, zuhause zu bleiben und uns kurz zu informieren, dass ihr nicht kommen könnt. Es wird auf dem HüPC eventuell Menschen geben, die eine Maske tragen. Bitte respektiert das und nehmt Rücksicht aufeinander. Solltest du aus Infektionsschutzgründen ein Einzelzimmer benötigen, gib das bitte im Anmeldeformular an.
+Wir nehmen das Corona-Infektionsrisiko sehr ernst. Daher bitten wir euch, einen **COVID-19-Selbst-/Schnelltest durchzuführen, bevor ihr zum HüPC anreist**. Wir möchten allen Teilgebenden einen möglichst sicheren Raum geben. Bei Erkältungs- oder Corona-Symptomen bitten wir euch, zuhause zu bleiben und uns kurz zu informieren, dass ihr nicht kommen könnt. Es wird auf dem HüPC eventuell Menschen geben, die eine Maske tragen. Bitte respektiert das und nehmt Rücksicht aufeinander. Solltest du aus Infektionsschutzgründen ein Einzelzimmer benötigen, gib das bitte im Anmeldeformular an. Zusätzlich bieten wir vor Ort Masken und Tests an, die gegen einen kleinen Betrag erworben werden können.
