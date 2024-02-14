@@ -3,22 +3,23 @@ import { Image } from 'astro:assets';
 
 import insta from '../images/icons/instagram-50.svg';
 import mastodon from '../images/icons/mastodon-64.svg';
-import youtube from '../images/icons/youtube-50.svg';
+import youtube from '../images/icons/youtube-66.svg';
+import facebook from '../images/icons/facebook-58.svg';
 
 ---
 <div class="bg-primary p-5">
 	<div class="container">
 		<div class="d-flex order justify-content-evenly">
-			<div class="">
-				<button class="btn bg-white font-weight-bold">Newsletter zum Event abbonieren</button>
-			</div>
-			<h2 class="text-white pt-4 margin-left md-remove-padding">Dem ABC folgen:</h2>
+			<h2 class="text-white pt-4 margin-left md-remove-padding">Dem ABC Folgen:</h2>
 			<div class="mt-2 d-flex flex-row align-items-center">
 				<div class="m-1">
 					<a href="https://www.instagram.com/abc_huell/" target=”_blank”><img src={insta.src} alt="Icon Instagram"></a>
 				</div>
 				<div class="m-1">
 					<a href="https://bildung.social/@abc" target=”_blank”><img src={mastodon.src} alt="Icon Mastodon"></a>
+				</div>
+				<div class="m-1">
+					<a href="https://www.facebook.com/abchuell/" target=”_blank”><img src={facebook.src} alt="Icon Facebook"></a>
 				</div>
 				<div class="m-1">
 					<a href="https://www.youtube.com/c/abchuell" target=”_blank”><img src={youtube.src} alt="Icon YouTube"></a>
