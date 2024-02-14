@@ -3,23 +3,29 @@ import { Image } from 'astro:assets';
 
 import Layout from '../layouts/Layout.astro';
 import CallToAction from '../components/CallToAction.astro';
-
 import pride from '../images/pride.webp';
 
 import * as text from '../content/pages/orga.md';
 ---
-
 <Layout title="HüllerPolitCamp">
 	<main>
+		<div class="header">
+			<Image src={pride} class="w-100 h-100 p-md-5 object-fit-cover" alt="Eine Trans Pride Flagge hängt aus einem Fenster.">
+		</div>
 		<div class="container py-4">
 			<h1 class="text-primary pb-md-1">{text.frontmatter.title}</h1>
 			<p class="fst-italic">{text.frontmatter.subtitle}</p>
 			<div class="row">
-				<div class="col-md-4">
-					<Image src={pride} class="w-100 h-100 p-md-5" alt="Eine Trans Pride Flagge hängt aus einem Fenster.">
+				<div class="">
+					<div set:html={text.compiledContent()} />
 				</div>
-				<div class="col-md-8 pt-md-5"><div set:html={text.compiledContent()}/></div>
-		</div>
+			</div>
 	</main>
 	<CallToAction />
 </Layout>
+
+<style lang="scss">
+.header {
+	height: 300px;
+}
+</style>
