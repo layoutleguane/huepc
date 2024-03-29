@@ -45,6 +45,14 @@ import * as mainInfo from '../content/main-infos.md';
 		<section>
 			<div class="container mt-5">
 				<div class="row align-items-center reverse">
+					<div class="col-md-8 pb-4">
+						<h2 class="text-primary">{mottoText.frontmatter.title}</h2>
+						<p set:html={mottoText.compiledContent()} />
+					</div>
+				</div>
+			</div>
+			<div class="container mt-5">
+				<div class="row align-items-center reverse">
 					<div class="col-md-4 mb-4">
 						<Image src={huepc} class="w-100 h-100 margin margin-right margin-left object-fit" width="700px" height="467px" alt="Eine Gruppe von Menschen sitzt unter einem Baum in Klappstühlen." />
 					</div>
