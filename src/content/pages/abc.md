@@ -17,11 +17,11 @@ Wenn Du per Auto oder Fahrrad anreist, kannst Du direkt vor Ort im Hof parken. D
 Kommst Du per ÖPNV, holen wird Dich per Shuttlebus mit anderen Teilnehmenden vom Bahnhof "Himmelpforten" im HVV Gesamtbereich ab.
 
 #### Anreise am Mittag
-Für die Anreise am Mittag kommt der Zug aus Hamburg um **13:08 Uhr** in Himmelpforten an. Der Shuttlebus wird dort bereits in Sichtweite des Bahnsteigs warten und dich mit den anderen Teilnehmenden nach Hüll bringen.\
+Für die Anreise am Mittag kommt der Zug aus Hamburg um **13:08 Uhr** in Himmelpforten an. Der Shuttlebus wird dort bereits in Sichtweite des Bahnsteigs warten und Dich mit den anderen Teilnehmenden nach Hüll bringen.\
 Begonnen wird im **ABC um 14:00 Uhr**.
 
 #### Shuttlebus am Abend
-Für die Anreise am Mittag kommt der Zug aus Hamburg um **17:08 Uhr** in Himmelpforten an. Auch um diese Uhrzeit wird der Shuttelbus in Sichtweite warten.\
+Für die Anreise am Abend kommt der Zug aus Hamburg um **17:08 Uhr** in Himmelpforten an. Auch um diese Uhrzeit wird der Shuttelbus in Sichtweite warten.\
 Begonnen wird im **ABC um 18:00 Uhr**.
 
 ### Abreise
@@ -30,10 +30,10 @@ So können wir den Abend entspannt gemeinsam ausklingen lassen.
 
 #### Abreise am Sonntag Abend
 Das Event **endet offiziell um 17:00 Uhr.**
-Der Shuttlebus bringt Dich um **17:30 Uhr** pünktlich nach Himmelpforten, sodass du den Zug um 17:51 Uhr nach Hamburg erreichst.
+Der Shuttlebus bringt Dich um **17:30 Uhr** pünktlich nach Himmelpforten, sodass du den **Zug um 17:51 Uhr nach Hamburg** erreichst.
 
 #### Abreise am Montag Morgen
-Nach einem gemeinsamen Frühstück bringt Dich der Shuttlebus um **10:30 Uhr** pünktlich nach Himmelpforten, wo der Zug nach Hamburg um 10:51 Uhr fährt.
+Nach einem gemeinsamen Frühstück bringt Dich der Shuttlebus um **10:30 Uhr** pünktlich nach Himmelpforten, wo der **Zug nach Hamburg um 10:51 Uhr** fährt.
 
 ## Veranstaltungsort
 
