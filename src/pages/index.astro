@@ -12,8 +12,9 @@ import huell from '../images/huell.webp';
 import paper from '../images/paper.webp';
 
 import * as introText from '../content/shorts/01-intro.md';
-import * as betzavtaText from '../content/shorts/05-betzavta.md';
 import * as locationText from '../content/shorts/02-location.md';
+import * as betzavtaText from '../content/shorts/05-betzavta.md';
+import * as mottoText from '../content/shorts/04-motto.md';
 import * as actionText from '../content/shorts/03-call-to-action.md';
 import * as mainInfo from '../content/main-infos.md';
 ---
@@ -72,6 +73,14 @@ import * as mainInfo from '../content/main-infos.md';
 					<div>
 						<h2 class="text-primary">{betzavtaText.frontmatter.title}</h2>
 						<p set:html={betzavtaText.compiledContent()} />
+					</div>
+				</div>
+			</div>
+			<div class="container mt-5">
+				<div class="row align-items-center">
+					<div>
+						<h2 class="text-primary">{mottoText.frontmatter.title}</h2>
+						<p set:html={mottoText.compiledContent()} />
 					</div>
 				</div>
 			</div>
