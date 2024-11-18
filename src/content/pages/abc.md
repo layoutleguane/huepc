@@ -3,26 +3,13 @@ title: Das ABC Tagungs- und Bildungszentrum
 subtitle: 
 ---
 ## An- und Abreise
-Dieses Jahr bieten wir zwei Anreise- und Abreisemöglichkeiten an.\
-Bitte gib bei der Anmeldung im Anmeldeformular Deine Präferenz an, um eine bessere Planung zu ermöglichen.
 
 ### Anreise
-Am Freitag haben wir zwei offizielle Start-Zeiten.\
-Wir beginnen am frühen Nachmittag gemeinsam mit einem Einstieg in das Motto des Events: "Zwischen Krise und Hoffnung".
-Für Menschen mit längerer Anreise oder festen Arbeitszeiten, bieten wir eine zweite Anreisemöglichkeit am Abend an.
+Das HüPC beginnt am Freitag um **17:30 Uhr**.\
+Wenn Du mit der Bahn anreist, plane daher den Zug mit Ankunft um **17:08 Uhr in Himmelpforten** (HVV Gesamtbereich). Dort wird in Sichtweite ein Shuttlebus bereit stehen, der Dich und die anderen Teilnehmenden abholt und ins ABC bringt.
 
 Wenn Du per Auto oder Fahrrad anreist, kannst Du direkt vor Ort im Hof parken. Die Adresse für Dein Navi lautet:\
 *Bauernreihe 1, 21706 Drochtersen.*
-
-Kommst Du per ÖPNV, holen wird Dich per Shuttlebus mit anderen Teilnehmenden vom Bahnhof "Himmelpforten" im HVV Gesamtbereich ab.
-
-#### Anreise am Mittag
-Für die Anreise am Mittag kommt der Zug aus Hamburg um **13:08 Uhr** in Himmelpforten an. Der Shuttlebus wird dort bereits in Sichtweite des Bahnsteigs warten und Dich mit den anderen Teilnehmenden nach Hüll bringen.\
-Begonnen wird im **ABC um 14:00 Uhr**.
-
-#### Shuttlebus am Abend
-Für die Anreise am Abend kommt der Zug aus Hamburg um **17:08 Uhr** in Himmelpforten an. Auch um diese Uhrzeit wird der Shuttelbus in Sichtweite warten.\
-Begonnen wird im **ABC um 18:00 Uhr**.
 
 ### Abreise
 Damit Personen mit längerer Rückreise nicht bereits verfrüht abreisen müssen, bieten wir dieses Jahr an, eine weitere Nacht zu bleiben und am Montag morgen abzureisen.
@@ -34,6 +21,8 @@ Der Shuttlebus bringt Dich um **17:30 Uhr** pünktlich nach Himmelpforten, sodas
 
 #### Abreise am Montag Morgen
 Nach einem gemeinsamen Frühstück bringt Dich der Shuttlebus um **10:30 Uhr** pünktlich nach Himmelpforten, wo der **Zug nach Hamburg um 10:51 Uhr** fährt.
+
+Bitte gib im Anmeldeformular an, ob du Sonntag Abend oder Montag morgen abreisen möchtest.
 
 ## Veranstaltungsort
 
