@@ -34,6 +34,6 @@ Obwohl wir mit der Barrierefreiheit noch nicht so weit sind, wie wir möchten, s
 
 Wir möchten niemanden ausschließen und allen Teilgebenden einen Raum bieten, in dem sie sich wohl fühlen und sich entfalten können. Dafür verfolgen wir ein Achtsamkeitskonzept, das einen Rahmen für ein gemeinsames Miteinander bietet. Ein Teil davon ist ein [Verhaltenskodex](../code-of-conduct/) bzw. Code of Conduct, der für das HüPC gilt.
 
-#### Hygienekonzept
+#### Was tun bei Krankheit?
 
-Wir nehmen das Corona-Infektionsrisiko sehr ernst. Daher bitten wir Dich, einen **COVID-19-Selbst-/Schnelltest durchzuführen, bevor Du zum HüPC anreist**. Wir möchten allen Teilgebenden einen möglichst sicheren Raum geben. Bei Erkältungs- oder Corona-Symptomen bitten wir Dich, zuhause zu bleiben und uns kurz zu informieren, dass ihr Du nicht kommen kannst. Es wird auf dem HüPC eventuell Menschen geben, die eine Maske tragen. Bitte respektiere das und nehmt Rücksicht aufeinander. Solltest Du aus Infektionsschutzgründen ein Einzelzimmer benötigen, gib das bitte im Anmeldeformular an. Zusätzlich bieten wir vor Ort Masken und Tests an, die gegen einen kleinen Betrag erworben werden können.
+Wir möchten allen Teilgebenden einen möglichst sicheren Raum geben. Das bedeutet auch, dass wir Dich bitten, bei Erkältungs- oder Corona-Symptomen, zuhause zu bleiben und uns kurz zu informieren, dass Du nicht kommen kannst. Es wird auf dem HüPC eventuell Menschen geben, die aus Infektionsschutzgründen auch weiterhin eine Maske tragen. Bitte respektiere das und nehmt Rücksicht aufeinander.
