@@ -12,17 +12,8 @@ Wenn Du per Auto oder Fahrrad anreist, kannst Du direkt vor Ort im Hof parken. D
 *Bauernreihe 1, 21706 Drochtersen.*
 
 ### Abreise
-Damit Personen mit längerer Rückreise nicht bereits verfrüht abreisen müssen, bieten wir dieses Jahr an, eine weitere Nacht zu bleiben und am Montag morgen abzureisen.
-So können wir den Abend entspannt gemeinsam ausklingen lassen.
-
-#### Abreise am Sonntag Abend
 Das Event **endet offiziell um 17:00 Uhr.**
 Der Shuttlebus bringt Dich um **17:30 Uhr** pünktlich nach Himmelpforten, sodass du den **Zug um 17:51 Uhr nach Hamburg** erreichst.
-
-#### Abreise am Montag Morgen
-Nach einem gemeinsamen Frühstück bringt Dich der Shuttlebus um **10:30 Uhr** pünktlich nach Himmelpforten, wo der **Zug nach Hamburg um 10:51 Uhr** fährt.
-
-Bitte gib im Anmeldeformular an, ob du Sonntag Abend oder Montag morgen abreisen möchtest.
 
 ## Veranstaltungsort
 
