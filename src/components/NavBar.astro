@@ -1,4 +1,6 @@
 ---
+import { TICKET_LINK } from "../constants/variables";
+
 const pathname = new URL(Astro.request.url).pathname;
 const currentPath = pathname.slice(1); // remove the first "/"
 
@@ -26,7 +28,7 @@ const { showbg } = Astro.props;
 					<a class={currentPath === "code-of-conduct" ? "nav-link active" : "nav-link"} href="/code-of-conduct">Verhaltenskodex</a>
 				</li>
 				<li class="nav-item sm-ms-2">
-					<a class="nav-link btn m-0 bg-primary text-white rounded button" href="https://pretix.eu/abc-huell/huepc26/">Anmelden</a>
+					<a class="nav-link btn m-0 bg-primary text-white rounded button" href={TICKET_LINK}>Anmelden</a>
 				</li>
 			</ul>
 		</div>

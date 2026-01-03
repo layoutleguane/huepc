@@ -1,5 +1,6 @@
 ---
 import { Image } from 'astro:assets';
+import { TICKET_LINK } from "../constants/variables";
 
 import NoNavBar from '../layouts/NoNavBar.astro';
 import Card from '../components/Card.astro';
@@ -91,7 +92,7 @@ import * as mainInfo from '../content/main-infos.md';
 					<div class="col-md-8 mb-4">
 						<h2 class="text-primary">{actionText.frontmatter.title}</h2>
 						<p set:html={actionText.compiledContent()} />
-						<a  href="https://pretix.eu/abc-huell/huepc26/" class="btn btn-primary">Anmelden</a>
+						<a  href={TICKET_LINK} class="btn btn-primary">Anmelden</a>
 						<!-- <button class="btn btn-primary">Anmelden</button> -->
 					</div>
 					<div class="col-md-4">

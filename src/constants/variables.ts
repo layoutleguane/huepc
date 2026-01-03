@@ -1,0 +1,1 @@
+export const TICKET_LINK = "https://pretix.eu/abc-huell/huepc26/";
